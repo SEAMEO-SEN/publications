@@ -1,2 +1,1 @@
-# gatsby-starter-default
-The default Gatsby starter
+Development of Proceeding Static Page
