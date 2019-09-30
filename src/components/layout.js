@@ -15,6 +15,7 @@ import ListItemText from "@material-ui/core/ListItemText"
 import MenuIcon from "@material-ui/icons/Menu"
 import Toolbar from "@material-ui/core/Toolbar"
 import Typography from "@material-ui/core/Typography"
+import SearchIcon from "@material-ui/icons/Search"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 
 const drawerWidth = 240
@@ -29,7 +30,7 @@ const useStyles = makeStyles(theme => ({
       flexShrink: 0,
     },
   },
-  appBar: {
+  appBar1: {
     marginLeft: drawerWidth,
     [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
@@ -48,6 +49,14 @@ const useStyles = makeStyles(theme => ({
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
+  },
+  appBar2: {
+    top: "auto",
+    bottom: 0,
+    marginLeft: drawerWidth,
+    [theme.breakpoints.up("sm")]: {
+      width: `calc(100% - ${drawerWidth}px)`,
+    },
   },
 }))
 
@@ -86,7 +95,7 @@ function Layout(props) {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar position="fixed" className={classes.appBar1}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -135,6 +144,13 @@ function Layout(props) {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <Typography paragraph>{children}</Typography>
+        <AppBar position="fixed" color="primary" className={classes.appBar2}>
+          <Toolbar>
+            <IconButton color="inherit">
+              <SearchIcon />
+            </IconButton>
+          </Toolbar>
+        </AppBar>
       </main>
     </div>
   )
