@@ -4,7 +4,7 @@ import IconButton from "@material-ui/core/IconButton"
 import Toolbar from "@material-ui/core/Toolbar"
 import SearchIcon from "@material-ui/icons/Search"
 import { makeStyles } from "@material-ui/core/styles"
-import HideOnScrollToTop from "./HideOnScrollToTop"
+import HideOnScrollToTop from "./hideOnScrollToTop"
 
 const drawerWidth = 240
 
