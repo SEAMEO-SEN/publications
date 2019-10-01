@@ -12,6 +12,7 @@ import MenuIcon from "@material-ui/icons/Menu"
 import Toolbar from "@material-ui/core/Toolbar"
 import Typography from "@material-ui/core/Typography"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
+import HideOnScrollToDown from "./hideOnScrollToDown"
 
 const drawerWidth = 240
 
@@ -73,22 +74,24 @@ function Header(props) {
   return (
     <>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            className={classes.menuButton}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap>
-            ICSE Publications
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <HideOnScrollToDown {...props}>
+        <AppBar position="fixed" className={classes.appBar}>
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              className={classes.menuButton}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography variant="h6" noWrap>
+              ICSE Publications
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </HideOnScrollToDown>
       <nav className={classes.drawer} aria-label="prooceding sidebar">
         <Hidden smUp implementation="css">
           <Drawer
