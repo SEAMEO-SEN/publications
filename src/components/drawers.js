@@ -1,4 +1,6 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import List from "@material-ui/core/List"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
@@ -15,6 +17,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Icse2015 from "../images/icse2015.jpg"
 import Icse2017 from "../images/icse2017.jpg"
 import Icse2019 from "../images/icse2019.jpg"
+import Grid from "@material-ui/core/Grid"
 
 const useStyles = makeStyles(theme => ({
   nested: {
@@ -33,8 +36,23 @@ function Drawers() {
     setOpenProc(!openProc)
   }
 
+  const seameosen = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "seameosen.png" }) {
+        childImageSharp {
+          fixed(width: 125, height: 125) {
+            ...GatsbyImageSharpFixed_tracedSVG
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <>
+      <Grid container direction="row" justify="center" alignItems="center">
+        <Img fixed={seameosen.file.childImageSharp.fixed} />
+      </Grid>
       <List>
         <ListItemLink href="/">
           <ListItemText primary="Home" />
