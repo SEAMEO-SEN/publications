@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `ICSE`,
-    description: `ICSE Proceeding`,
+    title: `SEAMEO SEN Publication`,
+    description: `SEAMEO SEN Publication Page`,
     author: `@hurtsky`,
   },
   plugins: [
