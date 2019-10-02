@@ -45,18 +45,7 @@ module.exports = {
           families: ["Roboto:300,400,500,700", "Material Icons"]
         }
       }
-    },
-    {
-      resolve: 'gatsby-plugin-htaccess',
-      options: {
-        https: true,
-        custom: `
-        <IfModule mod_headers.c>
-        Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
-        </IfModule>
-        `,
-      },
-    },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
