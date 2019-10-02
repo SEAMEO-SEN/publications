@@ -63,7 +63,7 @@ function Header(props) {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              ICSE Publications
+              SEAMEO SEN Publications
             </Typography>
           </Toolbar>
         </AppBar>

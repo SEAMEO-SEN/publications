@@ -1,8 +1,6 @@
 import React from "react"
 import AppBar from "@material-ui/core/AppBar"
-import IconButton from "@material-ui/core/IconButton"
 import Toolbar from "@material-ui/core/Toolbar"
-import SearchIcon from "@material-ui/icons/Search"
 import { makeStyles } from "@material-ui/core/styles"
 import HideOnScrollToTop from "./hideOnScrollToTop"
 
@@ -17,6 +15,9 @@ const useStyles = makeStyles(theme => ({
       width: `calc(100% - ${drawerWidth}px)`,
     },
   },
+  grow: {
+    flexGrow: 1,
+  },
 }))
 
 function Footer(props) {
@@ -24,10 +25,9 @@ function Footer(props) {
   return (
     <HideOnScrollToTop {...props}>
       <AppBar position="fixed" color="primary" className={classes.appBar}>
-        <Toolbar>
-          <IconButton color="inherit">
-            <SearchIcon />
-          </IconButton>
+        <Toolbar variant="dense">
+          <div className={classes.grow} />
+          Copyright &copy; 2019 SEAMEO SEN All Rights Reserved
         </Toolbar>
       </AppBar>
     </HideOnScrollToTop>
