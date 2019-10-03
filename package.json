@@ -1,7 +1,7 @@
 {
-  "name": "icse-publication-website",
+  "name": "seameosen-publication-website",
   "private": true,
-  "description": "International Conference on Special Education Publication Website",
+  "description": "SEAMEO Regional Centre for Special Education Publication Website",
   "version": "0.1.0",
   "author": "Mohamad Shabilullah Abd Hamid <shabil@seameosen.org>",
   "dependencies": {
@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hurtsky/icse"
+    "url": "https://github.com/SEAMEO-SEN/publications"
   },
   "bugs": {
-    "url": "https://github.com/hurtsky/icse/issues"
+    "url": "https://github.com/SEAMEO-SEN/publications/issues"
   }
 }
