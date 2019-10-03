@@ -1,0 +1,107 @@
+{
+  "conferenceTitle": ["3rd International Conference on Special Education 2019"],
+  "conferenceSubTitle": [
+    "Elevating Innovation for Sustainable Development of Special Needs Education"
+  ],
+  "nameOfChiefEditors": [
+    "Mdm. Hjh. Salmah Jopri",
+    "Dr. Safani Bari",
+    "Dr. Kway Eng Hock"
+  ],
+  "nameOfArticleReviewers": [
+    "Dr. Safani Bari (SEAMEO SEN)",
+    "Dr. Kway Eng Hock (SEAMEO SEN)",
+    "Dr. Koay Teng Leong (MALAYSIA)",
+    "Assoc. Prof. Dr. Mohd Hanafi Mohd Yassin (UKM)",
+    "Assoc. Prof. Dr. Aznan Che Ahmad (USM)",
+    "Dr. Shahrul Arba’iah Othman (MALAYSIA)",
+    "Dr. Norshidah Abu Husin (IPGK Perempuan Melayu)",
+    "Dr. Madinah Mohd Yusof (IPGK Ilmu Khas)"
+  ],
+  "technicalEditors": [
+    "Mr. Mohd Anis Abdul Razak",
+    "Ms. Monishah Md. Shah",
+    "Mr. Mohd Zulkarnain Abdul Wahab",
+    "Mr. Hazzlan Sama",
+    "Mr. Ahmad Heikhal Amir Hamzah",
+    "Ms. Fezny Othman",
+    "Mr. Mohamad Faris Idham Zainurin",
+    "Ms. Nuramirah Hazwani Kamarudzaman"
+  ],
+  "administrative": [
+    "Mr. Amiruddin Abu Samah",
+    "Ms. Nur Masturah Ibrahim",
+    "Ms. Siti Nadia Sahak",
+    "Ms. Noor Adila Ab Khalim",
+    "Ms. Jayanthi a/p Arumugam",
+    "Ms. Shahidah Abd Rahman",
+    "Mr. Muhammad Ikram bin Ab Aziz",
+    "Ms. Nur Harishah binti Ramlly"
+  ],
+  "finance": [
+    "Datin Era Zaffura Md. Sin",
+    "Ms. Noor Addlina Oshman",
+    "Ms. Siti Zuraidah Md. Noor"
+  ],
+  "design": [
+    "Mr. Mohamad Shabilullah Abd Hamid",
+    "Mr. Rusnedy Ruslan",
+    "Mr. Muhammad Asyraf Maarif"
+  ],
+  "distribution": [
+    "Mr. Zul Ashrif Abu Bakar",
+    "Mr. Aris Mamat",
+    "Ms. Nur Amirah Hani Senin",
+    "Mr. Mohd Khairol bin Johar"
+  ],
+  "listOfSubTheme": [
+    "Learning and Innovation for Students with Special Education Needs",
+    "Innovation in Early Intervention",
+    "Innovation in Inclusive Education",
+    "Transition from School to Employment",
+    "Innovation in Deafblind",
+    "Multiple Disabilities Education",
+    "Networking in Special Education",
+    "Policy on Disabilities",
+    "Gifted and Talented",
+    "Inclusive Education",
+    "Building and Sustaining Inclusive Society",
+    "Technical and Vocational Education Training (TVET) for Children with Special Educational Needs",
+    "Science, Technology, Engineering and Mathematics (STEM) for Special Educational Needs",
+    "Teacher Training and Capacity Building",
+    "Cultural and Arts Appreciation for Children with Special Educational Needs",
+    "ICT and Assistive Technology for Children with Special Educational Needs",
+    "Empowering Families and Communities for Children with Special Educational Needs"
+  ],
+  "conferenceObjective": [
+    "Enhance the knowledge and skills of participants to deliver effective educational services and support services for children with special educational needs by updating and enriching knowledge and skills of those who take part in the educational process.",
+    "Provide the platform and opportunities for exchange of best practices in teaching and learning of children with special educational needs.",
+    "Provide access and engagement in educational activities for children with special educational needs to prepare them for independent life.",
+    "Provide information in recent trends in Special Education and Inclusive Education through exchange of best practices and current approaches that are tangible and responsive to the 21st century challenges and needs.",
+    "To establish networking and smart collaboration among Ministries, related agencies and educators in education especially in Special Education at national, regional and international levels.",
+    "Increase awareness and acceptance of individuals with disabilities in the society and accommodating their needs in the community in terms of access, engagement and equity."
+  ],
+  "papers": [
+    {
+      "id": "1",
+      "paperId": "A1.01",
+      "title": "Implementation of Nurturing Motion Training Program to Improve Fine Motor Skills in a Child with Down Syndrome",
+      "authors": "Putri Nindya Agustin, Marshel Muhamad Farhan, Yuli Insyirah, Dea Marlis Apriliani & Sisriadini Alamsyah Sidiq",
+      "abstract": ""
+    },
+    {
+      "id": "2",
+      "paperId": "A1.02",
+      "title": "Use Pico Card Media to Improve Expressive Language Skills in Deaf Children in SKH Bina Citra Anak",
+      "authors": "Desty Ariesandy, Siti Hidayati Nur, Nurbaeti & Dedi Mulia M. Pd",
+      "abstract": ""
+    },
+    {
+      "id": "3",
+      "paperId": "A1.03",
+      "title": "The Effort to Improve the Movement of Rhythms of Student with Hearing Impairment through BKPBI Learning (Sound and Rhythm Perception Communication)",
+      "authors": "M Jefri Maulana, Andi Suntoda & Suherman Slamet",
+      "abstract": ""
+    }
+  ]
+}
