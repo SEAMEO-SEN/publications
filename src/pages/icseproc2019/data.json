@@ -83,21 +83,21 @@
   ],
   "papers": [
     {
-      "subTheme": "test1",
+      "subTheme": "Learning and Innovation for Students with Special Education Needs",
       "listOfPapers": [
         {
           "id": "1",
           "paperId": "A1.01",
           "title": "Implementation of Nurturing Motion Training Program to Improve Fine Motor Skills in a Child with Down Syndrome",
           "authors": "Putri Nindya Agustin, Marshel Muhamad Farhan, Yuli Insyirah, Dea Marlis Apriliani & Sisriadini Alamsyah Sidiq",
-          "abstract": ""
+          "abstract": "Cases in the field, that involves 5-year-old children with down syndrome who are not able to optimize some aspects of their motor skills. The research aims to improve children's fine motor skills in daily activities. To achieve that goal the researcher implemented a motion development training program. This study is a Single Subject Research (SSR) with A-B-A design. Data collection uses tests and observations. The data obtained was analyzed using simple descriptive statistics displayed in tables and graphs. The results showed that there was an increase in fine motor abilities of the subjects after being given a bringing up training intervention. The subject's ability increased from 45.8% at baseline 1 (A) to 70.8% at baseline 2 (A '). The results indicated that, motor development interventions are effective in improving motor skills"
         },
         {
           "id": "2",
           "paperId": "A1.02",
           "title": "Use Pico Card Media to Improve Expressive Language Skills in Deaf Children in SKH Bina Citra Anak",
           "authors": "Desty Ariesandy, Siti Hidayati Nur, Nurbaeti & Dedi Mulia M. Pd",
-          "abstract": ""
+          "abstract": "This research is based on the problem of lack of deaf children's ability in an expressive language. Research aims to develop the expressive language skills of deaf children and target child behavior in expressing desire. The subject of this research is the deaf student at SKh Bina Citra Anak. The method used is Single Subject Research with A-B-A research design. The developments can be seen in phase A1, phase B and phase A2. The processed Data is presented in a simple descriptive statistical form through graphs and percentage values. The results showed a significant development on the expressive language of the research subject using Pico Card media with the evidence of the acquisition of the mean phase A1 level of 57% to 79% at the mean phase level A2. Then the use of Pico Card Media is effective in enhancing the expressive language ability of deaf children"
         },
         {
           "id": "3",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Innovation in Early Intervention",
       "listOfPapers": [
         {
           "id": "5",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Innovation in Inclusive Education",
       "listOfPapers": [
         {
           "id": "7",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Transition from School to Employment",
       "listOfPapers": [
         {
           "id": "8",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Networking in Special Education",
       "listOfPapers": [
         {
           "id": "10",
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Inclusive Education",
       "listOfPapers": [
         {
           "id": "11",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Building and Sustaining Inclusive Society",
       "listOfPapers": [
         {
           "id": "15",
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "subTheme": "",
+      "subTheme": "Technical and Vocational Education Training (TVET) for Children with Special Education Needs",
       "listOfPapers": [
         {
           "id": "16",
