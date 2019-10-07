@@ -233,9 +233,7 @@ function Proc2019() {
         {data.papers.map((paper, i) => (
           <div key={i}>
             <Typography variant="h7">
-            <Box fontWeight="fontWeightBold">
-            {paper.subTheme}
-            </Box>
+              <Box fontWeight="fontWeightBold">{paper.subTheme}</Box>
             </Typography>
             <div className={classes.padBottom}></div>
             {paper.listOfPapers.map((listOfPaper, j) => (
