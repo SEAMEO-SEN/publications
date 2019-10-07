@@ -83,137 +83,163 @@
   ],
   "papers": [
     {
-      "id": "1",
-      "paperId": "A1.01",
-      "title": "Implementation of Nurturing Motion Training Program to Improve Fine Motor Skills in a Child with Down Syndrome",
-      "authors": "Putri Nindya Agustin, Marshel Muhamad Farhan, Yuli Insyirah, Dea Marlis Apriliani & Sisriadini Alamsyah Sidiq",
-      "abstract": ""
+      "subTheme": "test1",
+      "listOfPapers": [
+        {
+          "id": "1",
+          "paperId": "A1.01",
+          "title": "Implementation of Nurturing Motion Training Program to Improve Fine Motor Skills in a Child with Down Syndrome",
+          "authors": "Putri Nindya Agustin, Marshel Muhamad Farhan, Yuli Insyirah, Dea Marlis Apriliani & Sisriadini Alamsyah Sidiq",
+          "abstract": ""
+        },
+        {
+          "id": "2",
+          "paperId": "A1.02",
+          "title": "Use Pico Card Media to Improve Expressive Language Skills in Deaf Children in SKH Bina Citra Anak",
+          "authors": "Desty Ariesandy, Siti Hidayati Nur, Nurbaeti & Dedi Mulia M. Pd",
+          "abstract": ""
+        },
+        {
+          "id": "3",
+          "paperId": "A1.03",
+          "title": "The Effort to Improve the Movement of Rhythms of Student with Hearing Impairment through BKPBI Learning (Sound and Rhythm Perception Communication)",
+          "authors": "M Jefri Maulana, Andi Suntoda & Suherman Slamet",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.04",
+          "title": "Using Gold Balls Help Special Needs Pupils to Improve Addition Skills within 10",
+          "authors": "Lee Tze Kie, Norashikin Jasmon & Mohd. Rosman Salubin",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "2",
-      "paperId": "A1.02",
-      "title": "Use Pico Card Media to Improve Expressive Language Skills in Deaf Children in SKH Bina Citra Anak",
-      "authors": "Desty Ariesandy, Siti Hidayati Nur, Nurbaeti & Dedi Mulia M. Pd",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "5",
+          "paperId": "A2.01",
+          "title": "Inovasi Pedagogi: Modul i-Smart Muzik",
+          "authors": "Valerie Sinti",
+          "abstract": ""
+        },
+        {
+          "id": "6",
+          "paperId": "A2.02",
+          "title": "Implementation to Early Intervention Programs to Improve Activity Daily Living Skills for Children with Visual Impairments",
+          "authors": "Murniati Romadhoni Sukmady, Siti Asiah Rohmah, Tri Fitria Ningsih, Muhammad Harkat Hardi Miharja & Ratih Listyaningtyas, M.Pd",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "3",
-      "paperId": "A1.03",
-      "title": "The Effort to Improve the Movement of Rhythms of Student with Hearing Impairment through BKPBI Learning (Sound and Rhythm Perception Communication)",
-      "authors": "M Jefri Maulana, Andi Suntoda & Suherman Slamet",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "7",
+          "paperId": "A3.01",
+          "title": "Mirror of Sensitivity Between Receiving and Special Education Teacher in Regular Education Toward Inclusion",
+          "authors": "Zandra Zarate-Paruginog, Ed.D, Paquito A. Figuero, JR",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "4",
-      "paperId": "A1.04",
-      "title": "Using Gold Balls Help Special Needs Pupils to Improve Addition Skills within 10",
-      "authors": "Lee Tze Kie, Norashikin Jasmon & Mohd. Rosman Salubin",
-      "abstract": ""
-    }
-  ],
-  "subTheme2": [
-    {
-      "id": "5",
-      "paperId": "A2.01",
-      "title": "Inovasi Pedagogi: Modul i-Smart Muzik",
-      "authors": "Valerie Sinti",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "8",
+          "paperId": "A4.01",
+          "title": "Special Needs Students Career Preparation Module as Requirement for Men's Tailoring Job Market",
+          "authors": "Nur Rawaidah Rahmat",
+          "abstract": ""
+        },
+        {
+          "id": "9",
+          "paperId": "A4.02",
+          "title": "Impact of Entrepreneurial Training Platform on the Tendency of Special Needs Students to Venture into Business",
+          "authors": "Ummu Hani Binti Yusof & Fazlilawati Binti Fadzil",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "6",
-      "paperId": "A2.02",
-      "title": "Implementation to Early Intervention Programs to Improve Activity Daily Living Skills for Children with Visual Impairments",
-      "authors": "Murniati Romadhoni Sukmady, Siti Asiah Rohmah, Tri Fitria Ningsih, Muhammad Harkat Hardi Miharja & Ratih Listyaningtyas, M.Pd",
-      "abstract": ""
-    }
-  ],
-  "subTheme3": [
-    {
-      "id": "7",
-      "paperId": "A3.01",
-      "title": "Mirror of Sensitivity Between Receiving and Special Education Teacher in Regular Education Toward Inclusion",
-      "authors": "Zandra Zarate-Paruginog, Ed.D, Paquito A. Figuero, JR",
-      "abstract": ""
-    }
-  ],
-  "subTheme4": [
-    {
-      "id": "8",
-      "paperId": "A4.01",
-      "title": "Special Needs Students Career Preparation Module as Requirement for Men's Tailoring Job Market",
-      "authors": "Nur Rawaidah Rahmat",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "10",
+          "paperId": "A7.01",
+          "title": "Stakeholder Engagement to Implement Projects of Special Education Centers in Region I, Department of Education Philippines",
+          "authors": "Dr Arlene I. Niro & Dr. Jupiter L.  Petilla",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "9",
-      "paperId": "A4.02",
-      "title": "Impact of Entrepreneurial Training Platform on the Tendency of Special Needs Students to Venture into Business",
-      "authors": "Ummu Hani Binti Yusof & Fazlilawati Binti Fadzil",
-      "abstract": ""
-    }
-  ],
-  "subTheme5": [
-    {
-      "id": "10",
-      "paperId": "A7.01",
-      "title": "Stakeholder Engagement to Implement Projects of Special Education Centers in Region I, Department of Education Philippines",
-      "authors": "Dr Arlene I. Niro & Dr. Jupiter L.  Petilla",
-      "abstract": ""
-    }
-  ],
-  "subTheme6": [
-    {
-      "id": "11",
-      "paperId": "A10.01",
-      "title": "Inclusion Education, A study and Critical Analysis with the Dimensions of Inclusion Index in SMPN 28 Surabaya",
-      "authors": "Khalisha Aulia Ningrum & Dr Musjafak Assjari M.Pd",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "11",
+          "paperId": "A10.01",
+          "title": "Inclusion Education, A study and Critical Analysis with the Dimensions of Inclusion Index in SMPN 28 Surabaya",
+          "authors": "Khalisha Aulia Ningrum & Dr Musjafak Assjari M.Pd",
+          "abstract": ""
+        },
+        {
+          "id": "12",
+          "paperId": "A10.02",
+          "title": "Inclusive Education Paradigm in Islam",
+          "authors": "Eris Risnawati & Dr. Sunardi, M.Pd",
+          "abstract": ""
+        },
+        {
+          "id": "13",
+          "paperId": "A10.03",
+          "title": "Implementation of Indonesian Language Knowledge Assessment in Inclusion Classes",
+          "authors": "Meilia Ariviantty & Yuyus Suherman",
+          "abstract": ""
+        },
+        {
+          "id": "14",
+          "paperId": "A10.04",
+          "title": "The Implementation of Inclusive Education in High School 'x' Jakarta",
+          "authors": "Siti Luthfah & Dr Sunardi",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "12",
-      "paperId": "A10.02",
-      "title": "Inclusive Education Paradigm in Islam",
-      "authors": "Eris Risnawati & Dr. Sunardi, M.Pd",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "15",
+          "paperId": "A11.01",
+          "title": "Social Adjustment of College Students with Disabilities",
+          "authors": "Serista Silnya Joste & Diana Permata Sari, S.Psi, M.Sc",
+          "abstract": ""
+        }
+      ]
     },
     {
-      "id": "13",
-      "paperId": "A10.03",
-      "title": "Implementation of Indonesian Language Knowledge Assessment in Inclusion Classes",
-      "authors": "Meilia Ariviantty & Yuyus Suherman",
-      "abstract": ""
-    },
-    {
-      "id": "14",
-      "paperId": "A10.04",
-      "title": "The Implementation of Inclusive Education in High School 'x' Jakarta",
-      "authors": "Siti Luthfah & Dr Sunardi",
-      "abstract": ""
-    }
-  ],
-  "subTheme7": [
-    {
-      "id": "15",
-      "paperId": "A11.01",
-      "title": "Social Adjustment of College Students with Disabilities",
-      "authors": "Serista Silnya Joste & Diana Permata Sari, S.Psi, M.Sc",
-      "abstract": ""
-    }
-  ],
-  "subTheme8": [
-    {
-      "id": "16",
-      "paperId": "A12.01",
-      "title": "Cbook Xcess Usage on The Process of Teaching and Learning of Culinary Arts Course for Special Needs Students of Learning Disability",
-      "authors": "Mohd Farizan bin Mohd Saad@Zakaria",
-      "abstract": ""
-    },
-    {
-      "id": "17",
-      "paperId": "A12.02",
-      "title": "Vocational Skill Learning Development for Intellectual Disability Children",
-      "authors": "Lilis Suwandari",
-      "abstract": ""
+      "subTheme": "",
+      "listOfPapers": [
+        {
+          "id": "16",
+          "paperId": "A12.01",
+          "title": "Cbook Xcess Usage on The Process of Teaching and Learning of Culinary Arts Course for Special Needs Students of Learning Disability",
+          "authors": "Mohd Farizan bin Mohd Saad@Zakaria",
+          "abstract": ""
+        },
+        {
+          "id": "17",
+          "paperId": "A12.02",
+          "title": "Vocational Skill Learning Development for Intellectual Disability Children",
+          "authors": "Lilis Suwandari",
+          "abstract": ""
+        }
+      ]
     }
   ]
 }

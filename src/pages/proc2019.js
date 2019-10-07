@@ -220,18 +220,19 @@ function Proc2019() {
       <div className={classes.padBottom} />
       <Typography variant="h6">Papers:</Typography>
       <Typography variant="h7" gutterBottom>
-        {data.papers.map(paper => {
-          return (
-            <div key={paper.id}>
-              <div>
-                <p>Paper ID: {paper.paperId}</p>
-                <p>Paper Title: {paper.title}</p>
-                <p>Paper Author: {paper.authors}</p>
-                <p>Paper Abstract: {paper.abstract}</p>
+        {data.papers.map((paper, i) => (
+          <div key={i}>
+            Sub Theme: {paper.subTheme}
+            {paper.listOfPapers.map((listOfPaper, j) => (
+              <div key={j}>
+                <p>Paper ID: {listOfPaper.paperId}</p>
+                <p>Paper Title: {listOfPaper.title}</p>
+                <p>Paper Author: {listOfPaper.authors}</p>
+                <p>Paper Abstract: {listOfPaper.abstract}</p>
               </div>
-            </div>
-          )
-        })}
+            ))}
+          </div>
+        ))}
       </Typography>
     </Layout>
   )
