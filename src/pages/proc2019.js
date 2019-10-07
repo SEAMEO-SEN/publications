@@ -4,6 +4,15 @@ import SEO from "../components/seo"
 import Typography from "@material-ui/core/Typography"
 import data from "./icseproc2019/data"
 import { makeStyles } from "@material-ui/core/styles"
+import Card from "@material-ui/core/Card"
+import CardContent from "@material-ui/core/CardContent"
+import CardActions from "@material-ui/core/CardActions"
+import Button from "@material-ui/core/Button"
+import Box from "@material-ui/core/Box"
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
+import ExpansionPanel from "@material-ui/core/ExpansionPanel"
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
 
 const useStyles = makeStyles(theme => ({
   padBottom: {
@@ -218,18 +227,64 @@ function Proc2019() {
         </div>
       </Typography>
       <div className={classes.padBottom} />
-      <Typography variant="h6">Papers:</Typography>
+      <Typography variant="h6">List of Full Paper:</Typography>
+      <div className={classes.padBottom}></div>
       <Typography variant="h7" gutterBottom>
         {data.papers.map((paper, i) => (
           <div key={i}>
-            Sub Theme: {paper.subTheme}
+            <Typography variant="h7">
+            <Box fontWeight="fontWeightBold">
+            {paper.subTheme}
+            </Box>
+            </Typography>
+            <div className={classes.padBottom}></div>
             {paper.listOfPapers.map((listOfPaper, j) => (
-              <div key={j}>
-                <p>Paper ID: {listOfPaper.paperId}</p>
-                <p>Paper Title: {listOfPaper.title}</p>
-                <p>Paper Author: {listOfPaper.authors}</p>
-                <p>Paper Abstract: {listOfPaper.abstract}</p>
-              </div>
+              <>
+                <div key={j}>
+                  <Card>
+                    <CardContent>
+                      <ExpansionPanel TransitionProps={{ unmountOnExit: true }}>
+                        <ExpansionPanelSummary
+                          expandIcon={<ExpandMoreIcon />}
+                          aria-controls="panel1a-content"
+                          id="panel1a-header"
+                        >
+                          <Typography>
+                            <Typography variant="h7">
+                              <Box fontWeight="fontWeightBold">
+                                {listOfPaper.title}
+                              </Box>
+                            </Typography>
+                            <Typography
+                              className={classes.title}
+                              color="textSecondary"
+                              gutterBottom
+                            >
+                              {listOfPaper.authors}
+                            </Typography>
+                          </Typography>
+                        </ExpansionPanelSummary>
+                        <ExpansionPanelDetails>
+                          <Typography>{listOfPaper.abstract}</Typography>
+                        </ExpansionPanelDetails>
+                      </ExpansionPanel>
+                    </CardContent>
+                    <CardActions>
+                      <Button
+                        size="big"
+                        color="primary"
+                        href={"/pdf/icse/2019/" + listOfPaper.paperId + ".pdf"}
+                        target="_blank"
+                        rel="noopener"
+                        variant="outlined"
+                      >
+                        Download PDF
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+                <div className={classes.padBottom}></div>
+              </>
             ))}
           </div>
         ))}
