@@ -1,0 +1,233 @@
+{
+  "conferenceTitle": ["2nd International Conference on Special Education 2017"],
+  "conferenceSubTitle": [
+    "Access and Engagement"
+  ],
+  "nameOfChiefEditors": ["Datin Dr. Yasmin Hussain", "Dr. Safani Bari"],
+  "nameOfArticleReviewers": [
+    "Datin Dr. Yasmin Hussain (SEAMEO SEN)",
+    "Dr. Safani Bari (SEAMEO SEN)",
+    "Prof. Dr. Faaizah Shahbodin (UTeM)",
+    "Assoc. Prof. Dr. Mohd Hanafi Mohd Yassin (UKM)",
+    "Dr. Norani Md Salleh (UKM)",
+    "Dr. Mohd Mokhtar Tahar (UKM)",
+    "Dr. Kway Eng Hock (UPSI)",
+    "Dr. Diyana Kamarudin (UMP)",
+    "Dr. Madinah Mohd Yusof (IPGK Ilmu Khas)"
+  ],
+  "technicalEditors": [
+    "Mohd Anis Abdul Razak",
+    "Monishah Md. Shah",
+    "Jayanthi a/p Arumugam"
+  ],
+  "administrative": [
+    "Mazmi Maarof",
+    "Mohd Zulkarnain Abdul Wahab",
+    "Hazzlan Sama",
+    "Amiruddin Abu Samah",
+    "Nur Masturah Ibrahim",
+    "Siti Nadia Sahak",
+    "Noor Adila Ab Khalim"
+  ],
+  "finance": [
+    "Era Zaffura Md. Sin",
+    "Noor Addlina Oshman",
+    "Siti Zuraidah Md. Noor"
+  ],
+  "design": [
+    "Muhammad Asyraf Maarif",
+    "Nurul Atiqah Mazudin",
+    "Shahidah Abd Rahman"
+  ],
+  "distribution": [
+    "Mr. Zul Ashrif Abu Bakar",
+    "Mr. Aris Mamat",
+    "Ms. Nur Amirah Hani Senin"
+  ],
+  "listOfSubTheme": [
+    "Inclusive Education",
+    "Technical and Vocational Education Training for Children with Special Educational Needs",
+    "DeafBlind Education",
+    "Networking in Special Education",
+    "Learning Difficulties/ Hearing Impairment/Vision Impairment/ Gifted and Talented",
+    "Building and Sustaining Inclusive Society",
+    "Building and Sustaining Inclusive Community",
+    "Legislative and policy related to Special Educational provision and implementation",
+    "Science, Technology, Engineering and Mathematics for Special Educational Needs",
+    "Early Childhood Care Education",
+    "Teacher Training and Capacity Building",
+    "Innovation in Special Education",
+    "Educational Multimedia for Special Educational Needs",
+    "21st Century Curriculum for Special Education",
+    "Sports and Co-curricular activities for Special Educational Needs",
+    "Cultural and Arts Appreciation for Children with Special Educational Needs",
+    "ICT and Assistive Technology for Children with Special Educational Needs"
+  ],
+  "conferenceObjective": [
+    "Enhance the knowledge and skills of participants to deliver effective educational services and support services for children with special educational needs by updating and enriching knowledge and skills of those who take part in the educational process.",
+    "Provide the platform and opportunities for exchange of best practices in teaching and learning of children with special educational needs.",
+    "Provide access and engagement in educational activities for children with special educational needs to prepare them for independent life.",
+    "Provide information in recent trends in Special Education and Inclusive Education through exchange of best practices and current approaches that are tangible and responsive to  the 21st century challenges and needs.",
+    "To establish networking and smart collaboration among Ministries, related agencies and educators in education especially in Special Education at national, regional and international levels.",
+    "Increase awareness and acceptance of individuals with disabilities in the society and accommodating their needs in the community in terms of access, engagement and equity."
+  ],
+  "papers": [
+    {
+      "subTheme": "Inclusive Education",
+      "listOfPapers": [
+        {
+          "id": "1",
+          "paperId": "A1.01",
+          "title": "Amalan Terbaik Berkolaborasi Ibu Bapa Di Sekolah Program Pendidikan Inklusif Dari Perspektif Pemimpin Sekolah Di Negeri Melaka",
+          "authors": "Wong Jit Hoe, Wong Siew Fang",
+          "abstract": ""
+        },
+        {
+          "id": "2",
+          "paperId": "A1.02",
+          "title": "Working Together: Best Practices Towards Inclusive Education Of Pangasinan Division Ii, Philippines",
+          "authors": "Tambogon, Ricardo S., Tabuga, Marites M.",
+          "abstract": ""
+        },
+        {
+          "id": "3",
+          "paperId": "A1.03",
+          "title": "Inclusive Classrooms In Lopburi, Thailand: Through The Teachers' Lenses",
+          "authors": "Sermsap Vorapanya, Apison Pachanavon",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.04",
+          "title": "Attitude Towards Deaf People Among Malaysian Secondary School Students",
+          "authors": "Lee Wan Ying, Tan Chee-Seng, Siah Poh Chua, Lee Mah Ngee",
+          "abstract": ""
+        },
+        {
+          "id": "1",
+          "paperId": "A1.05",
+          "title": "A Proposition For An Inclusive Society For The Deaf",
+          "authors": "Wong Woei Ling",
+          "abstract": ""
+        },
+        {
+          "id": "2",
+          "paperId": "A1.06",
+          "title": "Promoting Inclusive Education Implementation In Indonesia Through Civil Power",
+          "authors": "Paramitha Pradina",
+          "abstract": ""
+        },
+        {
+          "id": "3",
+          "paperId": "A1.07",
+          "title": "A Review On Inclusive Education Practices And Effectiveness In Malaysia",
+          "authors": "Nor Aniza Ahmad, Anis Farahanim Abd Rahman",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.08",
+          "title": "The Importance Of Physical Environment Accessibility For Semi- Ambulance Disabilities Inclusive Education In Perspective",
+          "authors": "Dio Gitarama Subrata",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.09",
+          "title": "Primary Teachers' Challenges In Implementing Inclusive Education In Schools Of Maldives",
+          "authors": "Fathmath Nishan, Koay Teng Leong, Rohani Matzin, Rozmawijah Jawawi",
+          "abstract": ""
+        },
+        {
+          "id": "1",
+          "paperId": "A1.10",
+          "title": "Comparison Of Special Education And Mainstream Teachers' Efficacy Towards Inclusive Education Programme Classrooms In Malaysia",
+          "authors": "Teng Kie Yin, Yeo Kee Jiar, Hadijah Jaffri",
+          "abstract": ""
+        },
+        {
+          "id": "2",
+          "paperId": "A1.11",
+          "title": "Autism Students In Formal School",
+          "authors": "Carol Reynaldo Siagian",
+          "abstract": ""
+        },
+        {
+          "id": "3",
+          "paperId": "A1.12",
+          "title": "Acceptance And Rejection On Students With Special Needs (Ssn) In Secondary Inclusive Classroom",
+          "authors": "Abdul Rahim Razalli, Mohamad Norhizar, Abdul Talib Hashim, Nordin Mamat, Noreha Yusof",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.13",
+          "title": "Career Path Of Persons With Disabilities",
+          "authors": "Luningning B. de Castro, Liezel A. Vargas",
+          "abstract": ""
+        },
+        {
+          "id": "1",
+          "paperId": "A1.14",
+          "title": "The Inclusive Kindergarten In The Philippines: Access And Ample Opportunities For Early Learners With Special Needs",
+          "authors": "Adora P. Zerrudo",
+          "abstract": ""
+        },
+        {
+          "id": "2",
+          "paperId": "A1.15",
+          "title": "School-Based Roadmap For UN 2030 Education Agenda Focused On Providing Inclusive, Equitable And Gender Equality Education For Children With Disabilities",
+          "authors": "Jupiter L. Petilla",
+          "abstract": ""
+        },
+        {
+          "id": "3",
+          "paperId": "A1.16",
+          "title": "Scoping Study Into Human Rights-Based Approaches To Education In Southeast Asia",
+          "authors": "Educational Research Unit SEAMEO INNOTECH",
+          "abstract": ""
+        },
+        {
+          "id": "4",
+          "paperId": "A1.17",
+          "title": "Creative Model of Implementation Inclusive Education",
+          "authors": "H. Sambari Halim Radianto, Siti Jaiyaroh",
+          "abstract": ""
+        }
+      ]
+    },
+    {
+      "subTheme": "Networking in Special Education",
+      "listOfPapers": [
+        {
+          "id": "5",
+          "paperId": "A2.01",
+          "title": "Aspek Kekeluargaan Model Epstein Mempengaruhi Tahap Penglibatan Ibu Bapa Dalam Pelaksanaan Rancangan Pendidikan Individu Murid Berkeperluan Khas",
+          "authors": "Siti Hajarat Ramly, Aliza Alias",
+          "abstract": ""
+        },
+        {
+          "id": "5",
+          "paperId": "A2.02",
+          "title": "Penglibatan Multiprofesional Melalui Projek Kolaborasi Berasaskan Aktiviti Seni Visual Untuk Kanak-Kanak Berkeperluan Khas: Autisme",
+          "authors": "Nur Adibah Kamarus Zaman, Norshidah Mohd Salleh",
+          "abstract": ""
+        },
+        {
+          "id": "5",
+          "paperId": "A2.03",
+          "title": "Development Of Learning Kit „Komputer Kami‟ And The Usage Impact Within Children With Special Needs",
+          "authors": "Halizah Ahmad, Siti Nabilah Kasdi",
+          "abstract": ""
+        },
+        {
+          "id": "5",
+          "paperId": "A2.04",
+          "title": "Mathematics Education For Blind: Current Scenario From The Blind Schools  In Bangladesh",
+          "authors": "Lutfun Nahar, Azizah Jaafar, A.B.M.A. Kaish",
+          "abstract": ""
+        }
+      ]
+    }
+  ]
+}
