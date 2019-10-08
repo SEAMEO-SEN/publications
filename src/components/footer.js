@@ -1,36 +1,25 @@
 import React from "react"
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
 import { makeStyles } from "@material-ui/core/styles"
-import HideOnScrollToTop from "./hideOnScrollToTop"
 
-const drawerWidth = 240
+const drawerWidth = 260
 
 const useStyles = makeStyles(theme => ({
-  appBar: {
-    top: "auto",
-    bottom: 0,
-    marginLeft: drawerWidth,
+  footer: {
+    background: "#3f51b5",
+    color: "white",
+    paddingLeft: 0,
     [theme.breakpoints.up("sm")]: {
-      width: `calc(100% - ${drawerWidth}px)`,
+      paddingLeft: drawerWidth,
     },
-  },
-  grow: {
-    flexGrow: 1,
   },
 }))
 
-function Footer(props) {
+function Footer() {
   const classes = useStyles()
   return (
-    <HideOnScrollToTop {...props}>
-      <AppBar position="fixed" color="primary" className={classes.appBar}>
-        <Toolbar variant="dense">
-          <div className={classes.grow} />
-          Copyright &copy; 2019 SEAMEO SEN All Rights Reserved
-        </Toolbar>
-      </AppBar>
-    </HideOnScrollToTop>
+    <div className={classes.footer}>
+      Copyright &copy; 2019 SEAMEO SEN All Rights Reserved
+    </div>
   )
 }
 
