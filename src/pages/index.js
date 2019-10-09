@@ -22,6 +22,9 @@ const useStyles = makeStyles(theme => ({
   media: {
     height: 500,
   },
+  center: {
+    justifyContent: "center",
+  },
 }))
 
 function IndexPage() {
@@ -44,7 +47,7 @@ function IndexPage() {
                 subheader={conference.confTheme}
               />
               <CardContent>{conference.place}</CardContent>
-              <CardActions>
+              <CardActions className={classes.center}>
                 <Button
                   size="big"
                   color="primary"
