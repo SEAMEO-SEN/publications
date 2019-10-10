@@ -41,12 +41,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ["Roboto:300,400,500,700", "Material Icons"]
-        }
-      }
+          families: [`Roboto:300,400,500,700`, `Material Icons`],
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-gtag`,
