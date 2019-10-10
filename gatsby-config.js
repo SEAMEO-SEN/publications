@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://publication.seameosen.org`,
     title: `SEAMEO SEN Publication`,
     description: `SEAMEO SEN Publication Page`,
     author: `@hurtsky`,
@@ -56,6 +57,16 @@ module.exports = {
         head: false,
         // enable ip anonymization
         anonymize: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        // exclude: ["/category/*", `/path/to/page`],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
