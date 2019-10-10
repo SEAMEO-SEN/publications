@@ -69,6 +69,20 @@ module.exports = {
         // exclude: ["/category/*", `/path/to/page`],
       },
     },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://publication.seameosen.org`,
+        sitemap: `https://publication.seameosen.org/sitemap.xml`,
+        policy: [
+          {
+            userAgent: `*`,
+            allow: `/`,
+            disallow: `/pdf`,
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
