@@ -14,9 +14,6 @@ import ListItemAvatar from "@material-ui/core/ListItemAvatar"
 import Avatar from "@material-ui/core/Avatar"
 import Divider from "@material-ui/core/Divider"
 import { makeStyles } from "@material-ui/core/styles"
-import Icse2015 from "../images/icse2015.jpg"
-import Icse2017 from "../images/icse2017.jpg"
-import Icse2019 from "../images/icse2019.jpg"
 import Grid from "@material-ui/core/Grid"
 
 const useStyles = makeStyles(theme => ({
@@ -77,7 +74,7 @@ function Drawers() {
             <Divider variant="inset" component="li" />
             <ListItemLink href="/proc2015/" className={classes.nested}>
               <ListItemAvatar>
-                <Avatar alt="Icon" src={Icse2015} />
+                <Avatar alt="Icon" src="/img/icse2015icon.jpg"/>
               </ListItemAvatar>
               <ListItemText
                 primary="ICSE 2015"
@@ -89,7 +86,7 @@ function Drawers() {
             <Divider variant="inset" component="li" />
             <ListItemLink href="/proc2017/" className={classes.nested}>
               <ListItemAvatar>
-                <Avatar alt="Icon" src={Icse2017} />
+                <Avatar alt="Icon" src="/img/icse2017icon.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="ICSE 2017"
@@ -101,7 +98,7 @@ function Drawers() {
             <Divider variant="inset" component="li" />
             <ListItemLink href="/proc2019/" className={classes.nested}>
               <ListItemAvatar>
-                <Avatar alt="Icon" src={Icse2019} />
+                <Avatar alt="Icon" src="/img/icse2019icon.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="ICSE 2019"
