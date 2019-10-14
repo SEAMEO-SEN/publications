@@ -5500,10 +5500,10 @@ gatsby-plugin-material-ui@^2.1.6:
     clean-css "^4.2.1"
     postcss "^7.0.17"
 
-gatsby-plugin-nprogress@^2.1.10:
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.1.10.tgz#40fa3fd8471e12c792b123360eb8cafc56f826e0"
-  integrity sha512-LrMUGD5mATw82KgVOREXbc9hX9fcpM1UVtk7CQWAlvpgYx/01WScZ4Wkl/x+hd0TZXGU4l7fvLQroUUFhQjyrA==
+gatsby-plugin-nprogress@^2.1.11:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.1.11.tgz#698467b76e04342dcd78c9c70b3ca01d266717bd"
+  integrity sha512-sf8sWDNXXrOdyA6gYkqKthcZFXXfFIbivTcVkMTQ0Jyl3e7VqhuV3/HuTcpxncISKjZ3PITVgiB4wC7OtBcJFQ==
   dependencies:
     "@babel/runtime" "^7.6.3"
     nprogress "^0.2.0"
