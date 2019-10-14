@@ -4,8 +4,8 @@ import { makeStyles } from "@material-ui/core/styles"
 import Header from "./header"
 import Footer from "./footer"
 import Fade from "@material-ui/core/Fade"
-import Fab from '@material-ui/core/Fab';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import Fab from "@material-ui/core/Fab"
+import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp"
 import ScrollTop from "./scrollToTop"
 
 const drawerWidth = 260
@@ -26,8 +26,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Layout(props) {
-  const { children } = props
+const Layout = ({ children, props }) => {
   const classes = useStyles()
   const [state] = useState(false)
 
@@ -35,7 +34,7 @@ function Layout(props) {
     <div className={classes.root}>
       <Header />
       <main className={classes.content}>
-        <div className={classes.toolbar} id="back-to-top-anchor"/>
+        <div className={classes.toolbar} id="back-to-top-anchor" />
         <Fade in={!state}>
           <div>{children}</div>
         </Fade>

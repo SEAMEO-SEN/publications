@@ -37,8 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Header(props) {
-  const { container } = props
+const Header = ({ container, props }) => {
   const classes = useStyles()
   const theme = useTheme()
   const [mobileOpen, setMobileOpen] = React.useState(false)

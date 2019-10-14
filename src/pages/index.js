@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function IndexPage() {
+const IndexPage = () => {
   const classes = useStyles()
 
   return (

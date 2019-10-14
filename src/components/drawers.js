@@ -26,7 +26,7 @@ function ListItemLink(props) {
   return <ListItem button component="a" {...props} />
 }
 
-function Drawers() {
+const Drawers = () => {
   const classes = useStyles()
   const [openProc, setOpenProc] = React.useState(false)
   const handleClick = () => {
@@ -74,7 +74,7 @@ function Drawers() {
             <Divider variant="inset" component="li" />
             <ListItemLink href="/proc2015/" className={classes.nested}>
               <ListItemAvatar>
-                <Avatar alt="Icon" src="/img/icse2015icon.jpg"/>
+                <Avatar alt="Icon" src="/img/icse2015icon.jpg" />
               </ListItemAvatar>
               <ListItemText
                 primary="ICSE 2015"

@@ -25,18 +25,33 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Footer() {
+const Footer = () => {
   const classes = useStyles()
 
   return (
     <div className={classes.footer}>
-      <Button size="big" href="https://facebook.seameosen.org" target="_blank" rel="noopener">
+      <Button
+        size="big"
+        href="https://facebook.seameosen.org"
+        target="_blank"
+        rel="noopener"
+      >
         <FacebookIcon className={classes.whiteColor} />
       </Button>
-      <Button size="big" href="https://twitter.seameosen.org" target="_blank" rel="noopener">
+      <Button
+        size="big"
+        href="https://twitter.seameosen.org"
+        target="_blank"
+        rel="noopener"
+      >
         <TwitterIcon className={classes.whiteColor} />
       </Button>
-      <Button size="big" href="https://youtube.seameosen.org" target="_blank" rel="noopener">
+      <Button
+        size="big"
+        href="https://youtube.seameosen.org"
+        target="_blank"
+        rel="noopener"
+      >
         <YouTubeIcon className={classes.whiteColor} />
       </Button>
       <Button size="big" href="/terms/" className={classes.whiteColor}>

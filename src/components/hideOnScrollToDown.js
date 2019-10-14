@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 import useScrollTrigger from "@material-ui/core/useScrollTrigger"
 import Slide from "@material-ui/core/Slide"
 
-function HideOnScrollToDown(props) {
-  const { children } = props
+const HideOnScrollToDown = ({ children }) => {
   const trigger = useScrollTrigger()
 
   return (

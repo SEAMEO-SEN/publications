@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Proc2017() {
+const Proc2017 = () => {
   const classes = useStyles()
 
   return (
