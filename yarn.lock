@@ -5609,10 +5609,10 @@ gatsby-plugin-sass@^2.1.20:
     "@babel/runtime" "^7.6.3"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sharp@^2.2.34:
-  version "2.2.34"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.2.34.tgz#78736c581fff86941f41374e2cb4256aa2a49395"
-  integrity sha512-eAWyZrHYXOmEhyD0JaaklsO9oWBQTgrj/uAL9zeJDCmLnmHpdEkiX9CuErO917A7VLwI6P12VNN9+RYdrXwsoA==
+gatsby-plugin-sharp@^2.2.35:
+  version "2.2.35"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.2.35.tgz#bfba1473fc9c071aa791810604278dd372703a01"
+  integrity sha512-RDmpC6Sc8X4grndXxIW+c8sRdlXJ884s99/ZDIU+cH4WAejvj+c+ZHR0yBRKDDt1Ezh683677P4ykP7NH9V+uQ==
   dependencies:
     "@babel/runtime" "^7.6.3"
     async "^2.6.3"
@@ -5630,7 +5630,7 @@ gatsby-plugin-sharp@^2.2.34:
     probe-image-size "^4.1.1"
     progress "^2.0.3"
     semver "^5.7.1"
-    sharp "^0.23.1"
+    sharp "^0.23.2"
     svgo "^1.3.0"
     uuid "^3.3.3"
 
