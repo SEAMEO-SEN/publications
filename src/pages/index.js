@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { makeStyles } from "@material-ui/core/styles"
 import Grid from "@material-ui/core/Grid"
@@ -31,7 +30,7 @@ const IndexPage = () => {
   const classes = useStyles()
 
   return (
-    <Layout>
+    <>
       <SEO title="Welcome to SEAMEO SEN Publication Site" />
       <Grid container spacing={2}>
         {data.conferences.map((conference, j) => (
@@ -62,7 +61,7 @@ const IndexPage = () => {
           </Grid>
         ))}
       </Grid>
-    </Layout>
+    </>
   )
 }
 

@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Typography from "@material-ui/core/Typography"
 import data from "./icseproc2019/data"
@@ -42,7 +41,7 @@ const Proc2019 = () => {
   const classes = useStyles()
 
   return (
-    <Layout>
+    <>
       <SEO title="ICSE Proceeding 2019" />
       <Grid container spacing={1}>
         <Grid item xs={12} md={9}>
@@ -367,7 +366,7 @@ const Proc2019 = () => {
           <br />
         </Grid>
       </Grid>
-    </Layout>
+    </>
   )
 }
 
