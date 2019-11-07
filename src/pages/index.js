@@ -24,6 +24,14 @@ const useStyles = makeStyles(theme => ({
   center: {
     justifyContent: "center",
   },
+  float: {
+    position: "fixed",
+    top: 100,
+    right: 30,
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
+  },
 }))
 
 const IndexPage = () => {
@@ -61,6 +69,18 @@ const IndexPage = () => {
           </Grid>
         ))}
       </Grid>
+      <div className={classes.float}>
+        <a
+          href="https://www.trendcounter.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://www.trendcounter.com/w/track/04b9173500.png"
+            alt="Web Analytics"
+          />
+        </a>
+      </div>
     </>
   )
 }

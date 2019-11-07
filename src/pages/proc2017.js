@@ -365,6 +365,16 @@ const Proc2017 = () => {
             List of Full Paper
           </Button>
           <br />
+          <a
+            href="https://www.trendcounter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.trendcounter.com/w/track/04b9173500.png"
+              alt="Web Analytics"
+            />
+          </a>
         </Grid>
       </Grid>
     </>
