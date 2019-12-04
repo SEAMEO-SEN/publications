@@ -52,6 +52,9 @@ const Proc2017 = () => {
           <Typography variant="h6" gutterBottom>
             {data.conferenceSubTitle}
           </Typography>
+          <Typography variant="h6" gutterBottom>
+            {data.isbnNumber}
+          </Typography>
           <span className={classes.padhref} id="chiefEditor"></span>
           <Typography variant="h6">Chief Editors:</Typography>
           <Typography variant="h7" gutterBottom>
