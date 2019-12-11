@@ -23,7 +23,7 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2.1.26",
     "gatsby-plugin-sharp": "^2.3.7",
-    "gatsby-plugin-sitemap": "^2.2.22",
+    "gatsby-plugin-sitemap": "^2.2.24",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-transformer-sharp": "^2.3.9",
