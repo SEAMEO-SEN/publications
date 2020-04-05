@@ -72,18 +72,6 @@ const Drawers = () => {
         <Collapse in={openProc} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
             <Divider variant="inset" component="li" />
-            <ListItemLink href="/proc2015/" className={classes.nested}>
-              <ListItemAvatar>
-                <Avatar alt="Icon" src="/img/icse2015icon.jpg" />
-              </ListItemAvatar>
-              <ListItemText
-                primary="ICSE 2015"
-                secondary={
-                  <React.Fragment>{"ACCESS AND ENGAGEMENT"}</React.Fragment>
-                }
-              />
-            </ListItemLink>
-            <Divider variant="inset" component="li" />
             <ListItemLink href="/proc2017/" className={classes.nested}>
               <ListItemAvatar>
                 <Avatar alt="Icon" src="/img/icse2017icon.jpg" />
