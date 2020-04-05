@@ -57,6 +57,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '2',
+        matomoUrl: 'https://tracker.hurtsky.com',
+        siteUrl: 'https://publication.seameosen.org'
+      }
+    },
+    {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
