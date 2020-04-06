@@ -17,7 +17,7 @@
     "gatsby-plugin-gtag": "^1.0.12",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-material-ui": "^2.1.6",
-    "gatsby-plugin-matomo": "^0.8.2",
+    "gatsby-plugin-matomo": "^0.8.3",
     "gatsby-plugin-nprogress": "^2.2.1",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
