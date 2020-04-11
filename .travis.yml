@@ -1,4 +1,6 @@
 language: node_js
+os: linux
+dist: xenial
 cache:
   directories:
     - ~/.npm
@@ -12,10 +14,11 @@ script:
   - yarn build
 deploy:
   provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: $GITHUB_TOKEN
-  local-dir: public
-  target-branch: master
+  strategy: git
+  skip_cleanup: true
+  keep_history: true
+  token: $GITHUB_TOKEN
+  local_dir: public
+  target_branch: master
   on:
     branch: develop
