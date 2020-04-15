@@ -40,11 +40,24 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-web-font-loader`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        google: {
-          families: [`Roboto Slab:500`, `Material Icons`],
+        fonts: {
+          google: [
+            {
+              family: "Roboto Slab",
+              variants: ["400", "500"],
+              //subsets: ['latin']
+              //text: 'Hello'
+              fontDisplay: 'swap',
+              strategy: 'selfHosted' // 'base64' || 'cdn'
+            },
+          ],
         },
+        formats: ['woff2', 'woff'],
+        useMinify: true,
+        usePreload: true,
+        //usePreconnect: false,
       },
     },
     {
