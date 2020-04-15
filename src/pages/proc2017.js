@@ -175,7 +175,11 @@ const Proc2017 = () => {
           <div className={classes.padBottom} />
           <span className={classes.padhref} id="cofObjective"></span>
           <Typography variant="h6">Conference objectives</Typography>
-          <Typography component={"div"} variant="body1" gutterBottom>
+          <Typography
+            component={"div"}
+            variant="body1"
+            className={classes.justifyText}
+          >
             <ul>
               {data.conferenceObjective.map((s) => (
                 <li key={s}>{s}</li>
