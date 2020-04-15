@@ -7,7 +7,6 @@ import {
 } from "@material-ui/core/styles"
 import Header from "./header"
 import Footer from "./footer"
-import Fade from "@material-ui/core/Fade"
 import Fab from "@material-ui/core/Fab"
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp"
 import ScrollTop from "./scrollToTop"
@@ -32,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Layout = ({ children, props }) => {
   const classes = useStyles()
-  const [state] = useState(false)
 
   const [theme, setTheme] = useState({
     palette: {
@@ -57,9 +55,7 @@ const Layout = ({ children, props }) => {
         <Header onToggleDark={toggleDarkTheme} />
         <main className={classes.content}>
           <div className={classes.toolbar} id="back-to-top-anchor" />
-          <Fade in={!state}>
-            <div>{children}</div>
-          </Fade>
+          <div>{children}</div>
           <div className={classes.toolbar} />
           <ScrollTop {...props}>
             <Fab color="secondary" size="small" aria-label="scroll back to top">
