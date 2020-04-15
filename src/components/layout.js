@@ -1,6 +1,10 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { makeStyles } from "@material-ui/core/styles"
+import {
+  ThemeProvider,
+  createMuiTheme,
+  makeStyles,
+} from "@material-ui/core/styles"
 import Header from "./header"
 import Footer from "./footer"
 import Fade from "@material-ui/core/Fade"
@@ -10,7 +14,7 @@ import ScrollTop from "./scrollToTop"
 
 const drawerWidth = 260
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     minHeight: "100vh",
@@ -30,23 +34,42 @@ const Layout = ({ children, props }) => {
   const classes = useStyles()
   const [state] = useState(false)
 
+  const [theme, setTheme] = useState({
+    palette: {
+      type: "light",
+    },
+  })
+
+  const toggleDarkTheme = () => {
+    let newPaletteType = theme.palette.type === "light" ? "dark" : "light"
+    setTheme({
+      palette: {
+        type: newPaletteType,
+      },
+    })
+  }
+
+  const muiTheme = createMuiTheme(theme)
+
   return (
-    <div className={classes.root}>
-      <Header />
-      <main className={classes.content}>
-        <div className={classes.toolbar} id="back-to-top-anchor" />
-        <Fade in={!state}>
-          <div>{children}</div>
-        </Fade>
-        <div className={classes.toolbar} />
-        <ScrollTop {...props}>
-          <Fab color="secondary" size="small" aria-label="scroll back to top">
-            <KeyboardArrowUpIcon />
-          </Fab>
-        </ScrollTop>
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider theme={muiTheme}>
+      <div className={classes.root}>
+        <Header onToggleDark={toggleDarkTheme} />
+        <main className={classes.content}>
+          <div className={classes.toolbar} id="back-to-top-anchor" />
+          <Fade in={!state}>
+            <div>{children}</div>
+          </Fade>
+          <div className={classes.toolbar} />
+          <ScrollTop {...props}>
+            <Fab color="secondary" size="small" aria-label="scroll back to top">
+              <KeyboardArrowUpIcon />
+            </Fab>
+          </ScrollTop>
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

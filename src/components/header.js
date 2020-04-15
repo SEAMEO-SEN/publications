@@ -7,13 +7,14 @@ import IconButton from "@material-ui/core/IconButton"
 import MenuIcon from "@material-ui/icons/Menu"
 import Toolbar from "@material-ui/core/Toolbar"
 import Typography from "@material-ui/core/Typography"
+import Switch from "@material-ui/core/Switch"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import HideOnScrollToDown from "./hideOnScrollToDown"
 import Drawers from "./drawers"
 
 const drawerWidth = 240
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   drawer: {
     [theme.breakpoints.up("sm")]: {
       width: drawerWidth,
@@ -32,12 +33,15 @@ const useStyles = makeStyles(theme => ({
       display: "none",
     },
   },
+  title: {
+    flexGrow: 1,
+  },
   drawerPaper: {
     width: drawerWidth,
   },
 }))
 
-const Header = ({ container, props }) => {
+const Header = ({ container, props, onToggleDark }) => {
   const classes = useStyles()
   const theme = useTheme()
   const [mobileOpen, setMobileOpen] = React.useState(false)
@@ -61,9 +65,12 @@ const Header = ({ container, props }) => {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" noWrap>
+            <Typography variant="h6" className={classes.title}>
               SEAMEO SEN Publications
             </Typography>
+            <Switch
+              onClick={onToggleDark}
+            />
           </Toolbar>
         </AppBar>
       </HideOnScrollToDown>
