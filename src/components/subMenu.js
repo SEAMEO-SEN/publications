@@ -20,43 +20,43 @@ const SubMenu = () => {
   return (
     <Grid item sm={2} className={classes.float} id="miniMenu">
       Contents <br />
-      <Button size="big" href="#title">
+      <Button size="large" href="#title">
         Title
       </Button>
       <br />
-      <Button size="big" href="#chiefEditor">
+      <Button size="large" href="#chiefEditor">
         Chief Editors
       </Button>
       <br />
-      <Button size="big" href="#articleReviewer">
+      <Button size="large" href="#articleReviewer">
         Article Reviewers
       </Button>
       <br />
-      <Button size="big" href="#procCommittee">
+      <Button size="large" href="#procCommittee">
         Proceeding Committee
       </Button>
       <br />
-      <Button size="big" href="#preface">
+      <Button size="large" href="#preface">
         Preface
       </Button>
       <br />
-      <Button size="big" href="#theme">
+      <Button size="large" href="#theme">
         Theme
       </Button>
       <br />
-      <Button size="big" href="#cofObjective">
+      <Button size="large" href="#cofObjective">
         Conference objectives
       </Button>
       <br />
-      <Button size="big" href="#tarParticipant">
+      <Button size="large" href="#tarParticipant">
         Target Participants
       </Button>
       <br />
-      <Button size="big" href="#msgDirector">
+      <Button size="large" href="#msgDirector">
         Message from The Director of SEAMEO SEN
       </Button>
       <br />
-      <Button size="big" href="#listOfPaper">
+      <Button size="large" href="#listOfPaper">
         List of Full Paper
       </Button>
       <br />

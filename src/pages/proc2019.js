@@ -284,7 +284,7 @@ const Proc2019 = () => {
                         </CardContent>
                         <CardActions>
                           <Button
-                            size="big"
+                            size="large"
                             href={
                               "/pdf/icse/2019/" + listOfPaper.paperId + ".pdf"
                             }

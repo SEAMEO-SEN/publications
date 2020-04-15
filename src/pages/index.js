@@ -56,7 +56,7 @@ const IndexPage = () => {
               <CardContent>{conference.place}</CardContent>
               <CardActions className={classes.center}>
                 <Button
-                  size="big"
+                  size="large"
                   color="primary"
                   href={conference.page}
                   variant="contained"

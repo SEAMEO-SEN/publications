@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <Button
-        size="big"
+        size="large"
         href="https://facebook.seameosen.org"
         target="_blank"
         rel="noopener"
@@ -39,7 +39,7 @@ const Footer = () => {
         <FacebookIcon className={classes.whiteColor} />
       </Button>
       <Button
-        size="big"
+        size="large"
         href="https://twitter.seameosen.org"
         target="_blank"
         rel="noopener"
@@ -47,14 +47,14 @@ const Footer = () => {
         <TwitterIcon className={classes.whiteColor} />
       </Button>
       <Button
-        size="big"
+        size="large"
         href="https://youtube.seameosen.org"
         target="_blank"
         rel="noopener"
       >
         <YouTubeIcon className={classes.whiteColor} />
       </Button>
-      <Button size="big" href="/terms/" className={classes.whiteColor}>
+      <Button size="large" href="/terms/" className={classes.whiteColor}>
         Copyright &copy; 2019 SEAMEO SEN All Rights Reserved
       </Button>
     </div>
