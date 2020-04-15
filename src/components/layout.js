@@ -32,22 +32,21 @@ const useStyles = makeStyles((theme) => ({
 const Layout = ({ children, props }) => {
   const classes = useStyles()
 
-  const [theme, setTheme] = useState({
-    palette: {
-      type: "light",
-    },
-  })
+  const [theme, setTheme] = useState("light")
 
   const toggleDarkTheme = () => {
-    let newPaletteType = theme.palette.type === "light" ? "dark" : "light"
-    setTheme({
-      palette: {
-        type: newPaletteType,
-      },
-    })
+    let newPaletteType = theme === "light" ? "dark" : "light"
+    setTheme(newPaletteType)
   }
 
-  const muiTheme = createMuiTheme(theme)
+  const muiTheme = createMuiTheme({
+    palette: {
+      type: theme,
+    },
+    typography: {
+      fontFamily: ['"Roboto Slab"'],
+    },
+  })
 
   return (
     <ThemeProvider theme={muiTheme}>
