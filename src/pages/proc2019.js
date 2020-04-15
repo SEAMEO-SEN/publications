@@ -61,7 +61,7 @@ const Proc2019 = () => {
           <Typography variant="h7" gutterBottom>
             <ul>
               {data.nameOfChiefEditors.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -70,7 +70,7 @@ const Proc2019 = () => {
           <Typography variant="h7" gutterBottom>
             <ul>
               {data.nameOfArticleReviewers.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -82,7 +82,7 @@ const Proc2019 = () => {
           <Typography variant="h7" gutterBottom>
             <ul>
               {data.technicalEditors.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -92,7 +92,7 @@ const Proc2019 = () => {
           <Typography>
             <ul>
               {data.administrative.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -102,7 +102,7 @@ const Proc2019 = () => {
           <Typography>
             <ul>
               {data.finance.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -112,7 +112,7 @@ const Proc2019 = () => {
           <Typography>
             <ul>
               {data.design.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -122,7 +122,7 @@ const Proc2019 = () => {
           <Typography>
             <ul>
               {data.distribution.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -164,7 +164,7 @@ const Proc2019 = () => {
           <Typography variant="h7" gutterBottom>
             <ul>
               {data.listOfSubTheme.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
@@ -191,7 +191,7 @@ const Proc2019 = () => {
           <Typography variant="h7" gutterBottom>
             <ul>
               {data.conferenceObjective.map((s) => (
-                <li>{s}</li>
+                <li key={s}>{s}</li>
               ))}
             </ul>
           </Typography>
