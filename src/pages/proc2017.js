@@ -13,22 +13,15 @@ import ExpansionPanel from "@material-ui/core/ExpansionPanel"
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
 import Grid from "@material-ui/core/Grid"
+import SubMenu from "../components/subMenu"
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   padBottom: {
     paddingBottom: theme.spacing(3),
   },
   justifyText: {
     textAlign: "justify",
     textJustify: "inter-word",
-  },
-  float: {
-    position: "fixed",
-    top: 100,
-    right: 30,
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
   },
   padhref: {
     marginTop: -80,
@@ -59,7 +52,7 @@ const Proc2017 = () => {
           <Typography variant="h6">Chief Editors:</Typography>
           <Typography variant="h7" gutterBottom>
             <ul>
-              {data.nameOfChiefEditors.map(s => (
+              {data.nameOfChiefEditors.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -68,7 +61,7 @@ const Proc2017 = () => {
           <Typography variant="h6">Article Reviewers:</Typography>
           <Typography variant="h7" gutterBottom>
             <ul>
-              {data.nameOfArticleReviewers.map(s => (
+              {data.nameOfArticleReviewers.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -80,7 +73,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography variant="h7" gutterBottom>
             <ul>
-              {data.technicalEditors.map(s => (
+              {data.technicalEditors.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -90,7 +83,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography>
             <ul>
-              {data.administrative.map(s => (
+              {data.administrative.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -100,7 +93,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography>
             <ul>
-              {data.finance.map(s => (
+              {data.finance.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -110,7 +103,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography>
             <ul>
-              {data.design.map(s => (
+              {data.design.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -120,7 +113,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography>
             <ul>
-              {data.distribution.map(s => (
+              {data.distribution.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -161,7 +154,7 @@ const Proc2017 = () => {
           </Typography>
           <Typography variant="h7" gutterBottom>
             <ul>
-              {data.listOfSubTheme.map(s => (
+              {data.listOfSubTheme.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -188,7 +181,7 @@ const Proc2017 = () => {
           <Typography variant="h6">Conference objectives</Typography>
           <Typography variant="h7" gutterBottom>
             <ul>
-              {data.conferenceObjective.map(s => (
+              {data.conferenceObjective.map((s) => (
                 <li>{s}</li>
               ))}
             </ul>
@@ -306,7 +299,6 @@ const Proc2017 = () => {
                         <CardActions>
                           <Button
                             size="big"
-                            color="primary"
                             href={
                               "/pdf/icse/2017/" + listOfPaper.paperId + ".pdf"
                             }
@@ -326,59 +318,7 @@ const Proc2017 = () => {
             ))}
           </Typography>
         </Grid>
-        <Grid item sm={2} className={classes.float} id="miniMenu">
-          Contents <br />
-          <Button size="big" color="primary" href="#title">
-            Title
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#chiefEditor">
-            Chief Editors
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#articleReviewer">
-            Article Reviewers
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#procCommittee">
-            Proceeding Committee
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#preface">
-            Preface
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#theme">
-            Theme
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#cofObjective">
-            Conference objectives
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#tarParticipant">
-            Target Participants
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#msgDirector">
-            Message from The Director of SEAMEO SEN
-          </Button>
-          <br />
-          <Button size="big" color="primary" href="#listOfPaper">
-            List of Full Paper
-          </Button>
-          <br />
-          <a
-            href="https://www.trendcounter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://www.trendcounter.com/w/track/04b9173500.png"
-              alt="Web Analytics"
-            />
-          </a>
-        </Grid>
+        <SubMenu />
       </Grid>
     </>
   )
