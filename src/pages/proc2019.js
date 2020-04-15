@@ -175,7 +175,11 @@ const Proc2019 = () => {
           <div className={classes.padBottom} />
           <span className={classes.padhref} id="cofObjective"></span>
           <Typography variant="h6">Conference objectives</Typography>
-          <Typography component={"div"} variant="body1">
+          <Typography
+            component={"div"}
+            variant="body1"
+            className={classes.justifyText}
+          >
             <ul>
               {data.conferenceObjective.map((s) => (
                 <li key={s}>{s}</li>
@@ -264,17 +268,19 @@ const Proc2019 = () => {
                               aria-controls="panel1a-content"
                               id="panel1a-header"
                             >
-                              <Typography component={"div"} variant="body1">
-                                <Box fontWeight="fontWeightBold">
-                                  {listOfPaper.title}
-                                </Box>
-                              </Typography>
-                              <Typography
-                                className={classes.title}
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                {listOfPaper.authors}
+                              <Typography component={"div"}>
+                                <Typography component={"div"} variant="body1">
+                                  <Box fontWeight="fontWeightBold">
+                                    {listOfPaper.title}
+                                  </Box>
+                                </Typography>
+                                <Typography
+                                  className={classes.title}
+                                  color="textSecondary"
+                                  gutterBottom
+                                >
+                                  {listOfPaper.authors}
+                                </Typography>
                               </Typography>
                             </ExpansionPanelSummary>
                             <ExpansionPanelDetails>

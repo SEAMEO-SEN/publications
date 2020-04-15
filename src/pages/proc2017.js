@@ -266,17 +266,19 @@ const Proc2017 = () => {
                               aria-controls="panel1a-content"
                               id="panel1a-header"
                             >
-                              <Typography component={"div"} variant="body1">
-                                <Box fontWeight="fontWeightBold">
-                                  {listOfPaper.title}
-                                </Box>
-                              </Typography>
-                              <Typography
-                                className={classes.title}
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                {listOfPaper.authors}
+                              <Typography component={"div"}>
+                                <Typography component={"div"} variant="body1">
+                                  <Box fontWeight="fontWeightBold">
+                                    {listOfPaper.title}
+                                  </Box>
+                                </Typography>
+                                <Typography
+                                  className={classes.title}
+                                  color="textSecondary"
+                                  gutterBottom
+                                >
+                                  {listOfPaper.authors}
+                                </Typography>
                               </Typography>
                             </ExpansionPanelSummary>
                             <ExpansionPanelDetails>
