@@ -258,7 +258,6 @@ const Proc2017 = () => {
                 </Typography>
                 <div className={classes.padBottom}></div>
                 {paper.listOfPapers.map((listOfPaper, j) => (
-                  <>
                     <div key={j}>
                       <Card>
                         <CardContent>
@@ -304,9 +303,8 @@ const Proc2017 = () => {
                           </Button>
                         </CardActions>
                       </Card>
+					  <div className={classes.padBottom}></div>
                     </div>
-                    <div className={classes.padBottom}></div>
-                  </>
                 ))}
               </div>
             ))}
