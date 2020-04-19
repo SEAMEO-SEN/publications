@@ -1,38 +1,26 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import List from "@material-ui/core/List"
-import ListItem from "@material-ui/core/ListItem"
-import ListItemText from "@material-ui/core/ListItemText"
-import ExpandLess from "@material-ui/icons/ExpandLess"
-import ExpandMore from "@material-ui/icons/ExpandMore"
-import Collapse from "@material-ui/core/Collapse"
-import ListItemIcon from "@material-ui/core/ListItemIcon"
-import InboxIcon from "@material-ui/icons/MoveToInbox"
-import ListSubheader from "@material-ui/core/ListSubheader"
+import Grid from "@material-ui/core/Grid"
+import { Link } from "gatsby"
+import MenuItem from "@material-ui/core/MenuItem"
 import ListItemAvatar from "@material-ui/core/ListItemAvatar"
 import Avatar from "@material-ui/core/Avatar"
+import Typography from "@material-ui/core/Typography"
+import List from "@material-ui/core/List"
+import ListSubheader from "@material-ui/core/ListSubheader"
 import Divider from "@material-ui/core/Divider"
 import { makeStyles } from "@material-ui/core/styles"
-import Grid from "@material-ui/core/Grid"
 
-const useStyles = makeStyles(theme => ({
-  nested: {
-    paddingLeft: theme.spacing(4),
+const useStyles = makeStyles((theme) => ({
+  padded: {
+    paddingTop: theme.spacing(1.5),
+    paddingBottom: theme.spacing(1.5),
   },
 }))
 
-function ListItemLink(props) {
-  return <ListItem button component="a" {...props} />
-}
-
 const Drawers = () => {
   const classes = useStyles()
-  const [openProc, setOpenProc] = React.useState(false)
-  const handleClick = () => {
-    setOpenProc(!openProc)
-  }
-
   const seameosen = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "seameosen.png" }) {
@@ -50,62 +38,57 @@ const Drawers = () => {
       <Grid container direction="row" justify="center" alignItems="center">
         <Img fixed={seameosen.file.childImageSharp.fixed} />
       </Grid>
-      <List>
-        <ListItemLink href="/">
-          <ListItemText primary="Home" />
-        </ListItemLink>
-      </List>
+      <Divider />
+      <MenuItem
+        component={Link}
+        to="/"
+        activeStyle={{ color: "red" }}
+        className={classes.padded}
+      >
+        Home
+      </MenuItem>
+      <Divider />
       <List
+        disablePadding
         subheader={
           <ListSubheader component="div" id="nested-list-subheader">
             PROCEEDING
           </ListSubheader>
         }
       >
-        <ListItem button onClick={handleClick}>
-          <ListItemIcon>
-            <InboxIcon />
-          </ListItemIcon>
-          <ListItemText primary={"ICSE"} />
-          {openProc ? <ExpandLess /> : <ExpandMore />}
-        </ListItem>
-        <Collapse in={openProc} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding>
-            <Divider variant="inset" component="li" />
-            <ListItemLink href="/proc2017/" className={classes.nested}>
-              <ListItemAvatar>
-                <Avatar alt="Icon" src="/img/icse2017icon.jpg" />
-              </ListItemAvatar>
-              <ListItemText
-                primary="ICSE 2017"
-                secondary={
-                  <React.Fragment>{"ACCESS AND ENGAGEMENT"}</React.Fragment>
-                }
-              />
-            </ListItemLink>
-            <Divider variant="inset" component="li" />
-            <ListItemLink href="/proc2019/" className={classes.nested}>
-              <ListItemAvatar>
-                <Avatar alt="Icon" src="/img/icse2019icon.jpg" />
-              </ListItemAvatar>
-              <ListItemText
-                primary="ICSE 2019"
-                secondary={
-                  <React.Fragment>
-                    {
-                      "ELEVATING INNOVATION FOR SUSTAINABLE DEVELOPMENT OF SPECIAL NEEDS EDUCATION"
-                    }
-                  </React.Fragment>
-                }
-              />
-            </ListItemLink>
-            <Divider variant="inset" component="li" />
-          </List>
-        </Collapse>
-        <ListItemLink href="/terms/">
-          <ListItemText primary="Terms & Condition" />
-        </ListItemLink>
+        <MenuItem
+          component={Link}
+          to="/proc2017/"
+          activeStyle={{ color: "red" }}
+          className={classes.padded}
+        >
+          <ListItemAvatar>
+            <Avatar alt="Icon" src="/img/icse2017icon.jpg" />
+          </ListItemAvatar>
+          <Typography variant="inherit">Proceeding 2017</Typography>
+        </MenuItem>
+        <MenuItem
+          component={Link}
+          to="/proc2019/"
+          activeStyle={{ color: "red" }}
+          className={classes.padded}
+        >
+          <ListItemAvatar>
+            <Avatar alt="Icon" src="/img/icse2019icon.jpg" />
+          </ListItemAvatar>
+          <Typography variant="inherit">Proceeding 2019</Typography>
+        </MenuItem>
       </List>
+      <Divider />
+      <MenuItem
+        component={Link}
+        to="/terms/"
+        activeStyle={{ color: "red" }}
+        className={classes.padded}
+      >
+        Terms
+      </MenuItem>
+      <Divider />
     </>
   )
 }
