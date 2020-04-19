@@ -49,24 +49,24 @@ module.exports = {
               variants: ["400", "500"],
               //subsets: ['latin']
               //text: 'Hello'
-              fontDisplay: 'swap',
-              strategy: 'selfHosted' // 'base64' || 'cdn'
+              fontDisplay: "swap",
+              strategy: "selfHosted", // 'base64' || 'cdn'
             },
           ],
         },
-        formats: ['woff2', 'woff'],
+        formats: ["woff2", "woff"],
         useMinify: true,
         usePreload: true,
         //usePreconnect: false,
       },
     },
     {
-      resolve: 'gatsby-plugin-matomo',
+      resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: '2',
-        matomoUrl: 'https://tracker.hurtsky.com',
-        siteUrl: 'https://publication.seameosen.org'
-      }
+        siteId: "2",
+        matomoUrl: "https://tracker.hurtsky.com",
+        siteUrl: "https://publication.seameosen.org",
+      },
     },
     {
       resolve: `gatsby-plugin-gtag`,
