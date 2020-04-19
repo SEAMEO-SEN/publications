@@ -1,5 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
 import Grid from "@material-ui/core/Grid"
 import Card from "@material-ui/core/Card"
@@ -58,7 +59,8 @@ const IndexPage = () => {
                 <Button
                   size="large"
                   color="primary"
-                  href={conference.page}
+                  component={Link}
+                  to={conference.page}
                   variant="contained"
                   startIcon={<MenuBookIcon />}
                 >
