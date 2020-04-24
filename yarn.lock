@@ -6024,14 +6024,14 @@ gatsby-plugin-matomo@^0.8.3:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.8.3.tgz#e0e9cc9e60f7e4b157c9964dfc9d444d73bc46ee"
   integrity sha512-fv6TgD+WsxziZrtmz6sNF4m9FgSyV+8y3R1sobA5hB5OxJyhs/Y4HVo9jCPRHu5VLKQsg4i7LJhWL0ocJiqEWQ==
 
-gatsby-plugin-offline@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.1.4.tgz#722ab0f23ef7d2517e90d7ceb52d588886ce79e6"
-  integrity sha512-bV/4DkQ+RSOyLBrkSGcnEktYVe+7w5bVb2joJHMK1r8uhbhmBZ4XMLG1E6KQ0Pk5Z+X1S+FSc4gZiK2JD7MVKA==
+gatsby-plugin-offline@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.1.5.tgz#ee20c2797ff8c7bd126cf4f7dab3435534be529e"
+  integrity sha512-dinAvRgyra5slzgBOLpzE+PZ82kjsi+UhZtseYUBTQOJZeAWlTtxCjNI+TJD6uQQAew/qNOkTh9OPSV/iBnKEg==
   dependencies:
     "@babel/runtime" "^7.8.7"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.1.3"
+    gatsby-core-utils "^1.1.4"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.15"
