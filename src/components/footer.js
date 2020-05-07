@@ -55,7 +55,7 @@ const Footer = () => {
         <YouTubeIcon className={classes.whiteColor} />
       </Button>
       <Button size="large" href="/terms/" className={classes.whiteColor}>
-        Copyright &copy; 2019 SEAMEO SEN All Rights Reserved
+        Copyright &copy; {(new Date().getFullYear())} SEAMEO SEN All Rights Reserved
       </Button>
     </div>
   )
