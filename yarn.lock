@@ -1978,6 +1978,11 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
+"@types/common-tags@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@types/common-tags/-/common-tags-1.8.0.tgz#79d55e748d730b997be5b7fce4b74488d8b26a6b"
+  integrity sha512-htRqZr5qn8EzMelhX/Xmx142z218lLyGaeZ3YR8jlze4TATRU9huKKvuBmAJEW4LCC4pnY1N6JAm6p85fMHjhg==
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -6499,14 +6504,15 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^2.12.49:
-  version "2.12.49"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.49.tgz#1aa15e2565a0915bac0a7ae0b7e55db98707896a"
-  integrity sha512-uTw4JVnz02/GPH2EeomoqopyXLBf2ZiYEeqg/zF5VFsDpveCaQVKV9t/XOi+k9bjCjrguswfXoVtxcEnqnj0Pw==
+gatsby-cli@^2.12.49, gatsby-cli@^2.12.50:
+  version "2.12.50"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.12.50.tgz#c9c46cbbefe85d55d69fefbb9f5064defed70808"
+  integrity sha512-fBVKKtClQhbG29k7GhhGaG6bCcJJ3bMYWaLoN9GtQuM2DMPSNzLuUK/fV0oHEaDGlBCM1hbLJDKRKLHxzJuiGA==
   dependencies:
     "@babel/code-frame" "^7.10.1"
     "@babel/runtime" "^7.10.2"
     "@hapi/joi" "^15.1.1"
+    "@types/common-tags" "^1.8.0"
     better-opn "^1.0.0"
     bluebird "^3.7.2"
     chalk "^2.4.2"
