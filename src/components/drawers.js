@@ -80,6 +80,27 @@ const Drawers = () => {
         </MenuItem>
       </List>
       <Divider />
+      <List
+        disablePadding
+        subheader={
+          <ListSubheader component="div" id="nested-list-subheader">
+            SEAMEO SEN'S RESEARCH
+          </ListSubheader>
+        }
+      >
+        <MenuItem
+          component={Link}
+          to="/research/"
+          activeStyle={{ color: "red" }}
+          className={classes.padded}
+        >
+          <ListItemAvatar>
+            <Avatar alt="Icon" src="/img/badge_logo_seameosen.png" />
+          </ListItemAvatar>
+          <Typography variant="inherit">List of Articles</Typography>
+        </MenuItem>
+      </List>
+      <Divider />
       <MenuItem
         component={Link}
         to="/terms/"
