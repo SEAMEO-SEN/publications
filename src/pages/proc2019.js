@@ -9,9 +9,9 @@ import CardActions from "@material-ui/core/CardActions"
 import Button from "@material-ui/core/Button"
 import Box from "@material-ui/core/Box"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
-import ExpansionPanel from "@material-ui/core/ExpansionPanel"
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
+import Accordion from "@material-ui/core/Accordion"
+import AccordionSummary from "@material-ui/core/AccordionSummary"
+import AccordionDetails from "@material-ui/core/AccordionDetails"
 import Grid from "@material-ui/core/Grid"
 import SubMenu from "../components/subMenu"
 
@@ -259,10 +259,10 @@ const Proc2019 = () => {
                     <div key={j}>
                       <Card>
                         <CardContent>
-                          <ExpansionPanel
+                          <Accordion
                             TransitionProps={{ unmountOnExit: true }}
                           >
-                            <ExpansionPanelSummary
+                            <AccordionSummary
                               expandIcon={<ExpandMoreIcon />}
                               aria-controls="panel1a-content"
                               id="panel1a-header"
@@ -281,11 +281,11 @@ const Proc2019 = () => {
                                   {listOfPaper.authors}
                                 </Typography>
                               </Typography>
-                            </ExpansionPanelSummary>
-                            <ExpansionPanelDetails>
+                            </AccordionSummary>
+                            <AccordionDetails>
                               <Typography>{listOfPaper.abstract}</Typography>
-                            </ExpansionPanelDetails>
-                          </ExpansionPanel>
+                            </AccordionDetails>
+                          </Accordion>
                         </CardContent>
                         <CardActions>
                           <Button
