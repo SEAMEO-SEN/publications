@@ -19,7 +19,7 @@
     "gatsby-plugin-manifest": "^2.4.27",
     "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-matomo": "^0.8.3",
-    "gatsby-plugin-offline": "^3.2.26",
+    "gatsby-plugin-offline": "^3.2.27",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.3.12",
