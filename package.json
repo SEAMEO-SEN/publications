@@ -20,7 +20,7 @@
     "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-matomo": "^0.8.3",
     "gatsby-plugin-offline": "^3.2.28",
-    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-react-helmet": "^3.3.12",
     "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-sass": "^2.3.13",
     "gatsby-plugin-sharp": "^2.6.36",
