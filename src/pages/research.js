@@ -13,6 +13,12 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: theme.spacing(1.5),
     paddingBottom: theme.spacing(1.5),
   },
+  oblique: {
+    fontStyle: "oblique",
+  },
+  padBottom: {
+    paddingBottom: theme.spacing(0.5),
+  }
 }))
 
 const ResearchPage = () => {
@@ -58,7 +64,12 @@ const ResearchPage = () => {
                         {listOfPaper.authors}
                       </Typography>
                     </Typography>
-                    <Typography>{listOfPaper.abstract}</Typography>
+                    <Typography className={classes.padBottom} component={"div"} variant="body1">
+                        Abstract:
+                    </Typography>
+                    <Typography className={classes.oblique}>
+                      {listOfPaper.abstract}
+                    </Typography>
                   </CardContent>
                   <CardActions>
                     <Button
