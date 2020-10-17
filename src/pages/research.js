@@ -7,10 +7,6 @@ import Card from "@material-ui/core/Card"
 import CardContent from "@material-ui/core/CardContent"
 import CardActions from "@material-ui/core/CardActions"
 import Button from "@material-ui/core/Button"
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
-import Accordion from "@material-ui/core/Accordion"
-import AccordionSummary from "@material-ui/core/AccordionSummary"
-import AccordionDetails from "@material-ui/core/AccordionDetails"
 
 const useStyles = makeStyles((theme) => ({
   padded: {
@@ -25,50 +21,44 @@ const ResearchPage = () => {
   return (
     <>
       <SEO title="Research" />
-      <Typography variant="h3" gutterBottom>SEAMEO SEN'S Articles</Typography>
+      <Typography variant="h3" gutterBottom>
+        SEAMEO SEN'S Articles
+      </Typography>
       <Typography component={"div"} variant="body1" gutterBottom>
         {data.papers.map((paper, i) => (
           <div key={i}>
             <div className={classes.padded}></div>
-            <Typography component={"div"} variant="h4" gutterBottom>Year {paper.publicationYear}</Typography>
+            <Typography component={"div"} variant="h4" gutterBottom>
+              Year {paper.publicationYear}
+            </Typography>
             <div className={classes.padded}></div>
             {paper.listOfPapers.map((listOfPaper, j) => (
               <div key={j}>
                 <Card>
                   <CardContent>
-                    <Accordion>
-                      <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                    <Typography component={"div"}>
+                      <Typography component={"div"} variant="h6">
+                        {listOfPaper.title}
+                      </Typography>
+                      <Typography
+                        className={classes.title}
+                        color="textSecondary"
+                        gutterBottom
                       >
-                        <Typography component={"div"}>
-                          <Typography component={"div"} variant="h6">
-                              {listOfPaper.title}
-                          </Typography>
-                          <Typography
-                            className={classes.title}
-                            color="textSecondary"
-                            gutterBottom
-                          >
-                            Presented at: {listOfPaper.presentedAt}
-                          </Typography>
-                          <Typography component={"div"} variant="body1">
-                              Authors:
-                          </Typography>
-                          <Typography
-                            className={classes.title}
-                            color="textSecondary"
-                            gutterBottom
-                          >
-                            {listOfPaper.authors}
-                          </Typography>
-                        </Typography>
-                      </AccordionSummary>
-                      <AccordionDetails>
-                        <Typography>{listOfPaper.abstract}</Typography>
-                      </AccordionDetails>
-                    </Accordion>
+                        Presented at: {listOfPaper.presentedAt}
+                      </Typography>
+                      <Typography component={"div"} variant="body1">
+                        Authors:
+                      </Typography>
+                      <Typography
+                        className={classes.title}
+                        color="textSecondary"
+                        gutterBottom
+                      >
+                        {listOfPaper.authors}
+                      </Typography>
+                    </Typography>
+                    <Typography>{listOfPaper.abstract}</Typography>
                   </CardContent>
                   <CardActions>
                     <Button
