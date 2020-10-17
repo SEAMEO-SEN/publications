@@ -28,7 +28,11 @@ const ResearchPage = () => {
 
   return (
     <>
-      <SEO title="Research" />
+      <SEO
+        title="SEAMEO SEN Research Paper"
+        description="List of SEAMEO SEN Research Papers"
+        author="SEAMEO SEN"
+      />
       <Typography variant="h3" gutterBottom>
         SEAMEO SEN'S Articles
       </Typography>

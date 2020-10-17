@@ -43,7 +43,11 @@ const Proc2019 = () => {
 
   return (
     <>
-      <SEO title="ICSE Proceeding 2019" />
+      <SEO
+        title="3rd International Conference for Special Education 2019 (ICSE 2019)"
+        description="3rd International Conference for Special Education 2019 (ICSE 2019) by SEAMEO SEN, Theme: Elevating Innovation for Sustainable Development of Special Needs Education, e-ISBN: 978-967-15154-2-6"
+        author="SEAMEO SEN"
+      />
       <Grid container spacing={1}>
         <Grid item xs={12} md={9}>
           <span className={classes.padhref} id="title"></span>
