@@ -28,6 +28,14 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: 80,
     display: "block",
   },
+  abstractTitle: {
+    paddingBottom: theme.spacing(0.5),
+  },
+  abstract: {
+    fontStyle: "oblique",
+    textAlign: "justify",
+    textJustify: "inter-word",
+  },
 }))
 
 const Proc2019 = () => {
@@ -256,53 +264,60 @@ const Proc2019 = () => {
                 </Typography>
                 <div className={classes.padBottom}></div>
                 {paper.listOfPapers.map((listOfPaper, j) => (
-                    <div key={j}>
-                      <Card>
-                        <CardContent>
-                          <Accordion
-                            TransitionProps={{ unmountOnExit: true }}
+                  <div key={j}>
+                    <Card>
+                      <CardContent>
+                        <Accordion TransitionProps={{ unmountOnExit: true }}>
+                          <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel1a-content"
+                            id="panel1a-header"
                           >
-                            <AccordionSummary
-                              expandIcon={<ExpandMoreIcon />}
-                              aria-controls="panel1a-content"
-                              id="panel1a-header"
-                            >
-                              <Typography component={"div"}>
-                                <Typography component={"div"} variant="body1">
-                                  <Box fontWeight="fontWeightBold">
-                                    {listOfPaper.title}
-                                  </Box>
-                                </Typography>
-                                <Typography
-                                  className={classes.title}
-                                  color="textSecondary"
-                                  gutterBottom
-                                >
-                                  {listOfPaper.authors}
-                                </Typography>
+                            <Typography component={"div"}>
+                              <Typography component={"div"} variant="body1">
+                                <Box fontWeight="fontWeightBold">
+                                  {listOfPaper.title}
+                                </Box>
                               </Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>
-                              <Typography>{listOfPaper.abstract}</Typography>
-                            </AccordionDetails>
-                          </Accordion>
-                        </CardContent>
-                        <CardActions>
-                          <Button
-                            size="large"
-                            href={
-                              "/pdf/icse/2019/" + listOfPaper.paperId + ".pdf"
-                            }
-                            target="_blank"
-                            rel="noopener"
-                            variant="outlined"
-                          >
-                            Download PDF
-                          </Button>
-                        </CardActions>
-                      </Card>
-					  <div className={classes.padBottom}></div>
-                    </div>
+                              <Typography
+                                className={classes.title}
+                                color="textSecondary"
+                                gutterBottom
+                              >
+                                {listOfPaper.authors}
+                              </Typography>
+                            </Typography>
+                          </AccordionSummary>
+                          <AccordionDetails>
+                            <Typography component={"div"}>
+                              <Typography
+                                className={classes.abstractTitle}
+                              >
+                                Abstract:
+                              </Typography>
+                              <Typography className={classes.abstract}>
+                                {listOfPaper.abstract}
+                              </Typography>
+                            </Typography>
+                          </AccordionDetails>
+                        </Accordion>
+                      </CardContent>
+                      <CardActions>
+                        <Button
+                          size="large"
+                          href={
+                            "/pdf/icse/2019/" + listOfPaper.paperId + ".pdf"
+                          }
+                          target="_blank"
+                          rel="noopener"
+                          variant="outlined"
+                        >
+                          Download PDF
+                        </Button>
+                      </CardActions>
+                    </Card>
+                    <div className={classes.padBottom}></div>
+                  </div>
                 ))}
               </div>
             ))}
