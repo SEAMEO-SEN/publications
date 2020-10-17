@@ -60,12 +60,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-brotli",
-      options: {
-        extensions: ["css", "html", "js"],
-      },
-    },
-    {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "2",
