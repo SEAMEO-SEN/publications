@@ -15,6 +15,8 @@ const useStyles = makeStyles((theme) => ({
   },
   oblique: {
     fontStyle: "oblique",
+    textAlign: "justify",
+    textJustify: "inter-word",
   },
   padBottom: {
     paddingBottom: theme.spacing(0.5),
@@ -64,8 +66,12 @@ const ResearchPage = () => {
                         {listOfPaper.authors}
                       </Typography>
                     </Typography>
-                    <Typography className={classes.padBottom} component={"div"} variant="body1">
-                        Abstract:
+                    <Typography
+                      className={classes.padBottom}
+                      component={"div"}
+                      variant="body1"
+                    >
+                      Abstract:
                     </Typography>
                     <Typography className={classes.oblique}>
                       {listOfPaper.abstract}
