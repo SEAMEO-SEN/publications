@@ -13,7 +13,6 @@ import Accordion from "@material-ui/core/Accordion"
 import AccordionSummary from "@material-ui/core/AccordionSummary"
 import AccordionDetails from "@material-ui/core/AccordionDetails"
 import Grid from "@material-ui/core/Grid"
-import SubMenu from "../components/subMenu"
 
 const useStyles = makeStyles((theme) => ({
   padBottom: {
@@ -35,6 +34,14 @@ const useStyles = makeStyles((theme) => ({
     fontStyle: "oblique",
     textAlign: "justify",
     textJustify: "inter-word",
+  },
+  float: {
+    position: "fixed",
+    top: 80,
+    right: 30,
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
   },
 }))
 
@@ -327,7 +334,59 @@ const Proc2017 = () => {
             ))}
           </Typography>
         </Grid>
-        <SubMenu />
+        <Grid item sm={2} className={classes.float} id="miniMenu">
+          Contents <br />
+          <Button size="small" href="#title">
+            Title
+          </Button>
+          <br />
+          <Button size="small" href="#chiefEditor">
+            Chief Editors
+          </Button>
+          <br />
+          <Button size="small" href="#articleReviewer">
+            Article Reviewers
+          </Button>
+          <br />
+          <Button size="small" href="#procCommittee">
+            Proceeding Committee
+          </Button>
+          <br />
+          <Button size="small" href="#preface">
+            Preface
+          </Button>
+          <br />
+          <Button size="small" href="#theme">
+            Theme
+          </Button>
+          <br />
+          <Button size="small" href="#cofObjective">
+            Conference objectives
+          </Button>
+          <br />
+          <Button size="small" href="#tarParticipant">
+            Target Participants
+          </Button>
+          <br />
+          <Button size="small" href="#msgDirector">
+            Message from The Director of SEAMEO SEN
+          </Button>
+          <br />
+          <Button size="small" href="#listOfPaper">
+            List of Full Paper
+          </Button>
+          <br />
+          <a
+            href="https://www.trendcounter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.trendcounter.com/w/track/04b9173500.png"
+              alt="Web Analytics"
+            />
+          </a>
+        </Grid>
       </Grid>
     </>
   )
