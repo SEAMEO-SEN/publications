@@ -6454,10 +6454,10 @@ gatsby-plugin-material-ui@^2.1.10:
     clean-css "^4.2.1"
     postcss "^7.0.17"
 
-gatsby-plugin-matomo@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.8.3.tgz#e0e9cc9e60f7e4b157c9964dfc9d444d73bc46ee"
-  integrity sha512-fv6TgD+WsxziZrtmz6sNF4m9FgSyV+8y3R1sobA5hB5OxJyhs/Y4HVo9jCPRHu5VLKQsg4i7LJhWL0ocJiqEWQ==
+gatsby-plugin-matomo@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.9.0.tgz#016a87adf577498fe1e396bdc56d418e7cadd87c"
+  integrity sha512-PqxVWMXhVOkJbEMLiW3G7tWTx4TMilzV6ywwOM7tCSp4718T+pAb+l0aJl2/bOs9kezxHmKa9yxvH4Kvs1rTYA==
 
 gatsby-plugin-offline@^3.8.0:
   version "3.8.0"
