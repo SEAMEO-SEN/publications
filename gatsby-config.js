@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-material-ui`,
       options: {
@@ -26,8 +27,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-loadable-components-ssr`,
+      options: {
+        // Whether replaceHydrateFunction should call ReactDOM.hydrate or ReactDOM.render
+        // Defaults to ReactDOM.render on develop and ReactDOM.hydrate on build
+        useHydrate: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -56,7 +63,7 @@ module.exports = {
             },
           ],
         },
-        formats: ["woff2", "woff"],
+        formats: ["woff"],
         useMinify: true,
         usePreload: true,
         //usePreconnect: false,
@@ -68,17 +75,6 @@ module.exports = {
         siteId: "2",
         matomoUrl: "https://tracker.hurtsky.com",
         siteUrl: "https://publication.seameosen.org",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // your google analytics tracking id
-        trackingId: `UA-149707309-1`,
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // enable ip anonymization
-        anonymize: true,
       },
     },
     {
