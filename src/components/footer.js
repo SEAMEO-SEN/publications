@@ -6,6 +6,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube"
 import Button from "@material-ui/core/Button"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
+import HideOnScrollToDown from "./hideOnScrollToTop"
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -21,10 +22,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const Footer = () => {
+const Footer = (props) => {
   const classes = useStyles()
 
   return (
+    <HideOnScrollToDown {...props}>
     <AppBar className={classes.appBar}>
       <Toolbar>
         <Button
@@ -61,6 +63,7 @@ const Footer = () => {
         </Button>
       </Toolbar>
     </AppBar>
+    </HideOnScrollToDown>
   )
 }
 
