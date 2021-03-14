@@ -1,6 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby"
 import MenuItem from "@material-ui/core/MenuItem"
@@ -21,22 +20,15 @@ const useStyles = makeStyles((theme) => ({
 
 const Drawers = () => {
   const classes = useStyles()
-  const seameosen = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "seameosen.png" }) {
-        childImageSharp {
-          fixed(width: 125, height: 125) {
-            ...GatsbyImageSharpFixed_tracedSVG
-          }
-        }
-      }
-    }
-  `)
 
   return (
     <>
       <Grid container direction="row" justify="center" alignItems="center">
-        <Img fixed={seameosen.file.childImageSharp.fixed} />
+        <StaticImage
+          src="../images/seameosen.png"
+          alt="SEAMEO SEN Logo"
+          placeholder="blurred"
+        />
       </Grid>
       <Divider />
       <MenuItem

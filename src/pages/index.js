@@ -12,7 +12,7 @@ import MenuBookIcon from "@material-ui/icons/MenuBook"
 import Button from "@material-ui/core/Button"
 import data from "./index/data"
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   card: {
     height: "100%",
     display: "flex",
