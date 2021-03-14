@@ -1,7 +1,7 @@
 {
   "name": "seameosen-publication-website",
   "private": true,
-  "description": "SEAMEO Regional Centre for Special Education Publication Website",
+  "description": "SEAMEO Regional Centre for Special Educational Needs Publication Website",
   "version": "0.1.0",
   "author": "Mohamad Shabilullah Abd Hamid <shabil@seameosen.org>",
   "dependencies": {
