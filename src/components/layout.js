@@ -9,6 +9,8 @@ import Header from "./header"
 import Footer from "./footer"
 import Fab from "@material-ui/core/Fab"
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp"
+import indigo from '@material-ui/core/colors/indigo';
+import pink from '@material-ui/core/colors/pink';
 import ScrollTop from "./scrollToTop"
 
 const useStyles = makeStyles((theme) => ({
@@ -35,6 +37,8 @@ const Layout = ({ children, props }) => {
   const muiTheme = createMuiTheme({
     palette: {
       type: theme,
+      primary: indigo,
+      secondary: pink,
     },
     typography: {
       fontFamily: ['"Roboto Slab"'],
