@@ -86,9 +86,8 @@ module.exports = {
         sitemap: `https://publication.seameosen.org/sitemap.xml`,
         policy: [
           {
-            userAgent: `*`,
+            userAgent: `Googlebot`,
             allow: `/`,
-            disallow: `/pdf`,
           },
         ],
       },
