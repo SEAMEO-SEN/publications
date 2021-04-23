@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import data from "./research/data"
 import { makeStyles } from "@material-ui/core/styles"
 import Typography from "@material-ui/core/Typography"
@@ -28,7 +28,7 @@ const ResearchPage = () => {
 
   return (
     <>
-      <SEO
+      <Seo
         title="SEAMEO SEN Research Paper"
         description="List of SEAMEO SEN Research Papers"
         author="SEAMEO SEN"

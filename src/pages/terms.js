@@ -1,11 +1,11 @@
 import React from "react"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const TermsPage = () => {
 
   return (
     <>
-      <SEO title="Terms and Condition" />
+      <Seo title="Terms and Condition" />
       <h1>Terms and Conditions</h1>
       <p>
         Published by:

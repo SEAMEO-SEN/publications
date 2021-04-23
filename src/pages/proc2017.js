@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Typography from "@material-ui/core/Typography"
 import data from "./icseproc2017/data"
 import { makeStyles } from "@material-ui/core/styles"
@@ -50,7 +50,7 @@ const Proc2017 = () => {
 
   return (
     <>
-      <SEO
+      <Seo
         title="2nd International Conference for Special Education 2017 (ICSE 2017)"
         description="2nd International Conference for Special Education 2017 (ICSE 2017) by SEAMEO SEN, Theme: Access and Engagement, ISBN: 978-967-15154-0-2"
         author="SEAMEO SEN"

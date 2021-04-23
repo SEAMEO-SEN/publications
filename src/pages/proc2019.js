@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Typography from "@material-ui/core/Typography"
 import data from "./icseproc2019/data"
 import { makeStyles } from "@material-ui/core/styles"
@@ -50,7 +50,7 @@ const Proc2019 = () => {
 
   return (
     <>
-      <SEO
+      <Seo
         title="3rd International Conference for Special Education 2019 (ICSE 2019)"
         description="3rd International Conference for Special Education 2019 (ICSE 2019) by SEAMEO SEN, Theme: Elevating Innovation for Sustainable Development of Special Needs Education, e-ISBN: 978-967-15154-2-6"
         author="SEAMEO SEN"

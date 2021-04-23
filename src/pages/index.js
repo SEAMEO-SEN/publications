@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
 import Grid from "@material-ui/core/Grid"
@@ -32,7 +32,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <SEO title="Welcome to SEAMEO SEN Publication Site" />
+      <Seo title="Welcome to SEAMEO SEN Publication Site" />
       <Grid container spacing={2}>
         {data.conferences.map((conference, j) => (
           <Grid key={j} item xs={12} sm={12} md={6} lg={4}>
