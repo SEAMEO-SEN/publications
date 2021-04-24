@@ -8,10 +8,6 @@ import CardContent from "@material-ui/core/CardContent"
 import CardActions from "@material-ui/core/CardActions"
 import Button from "@material-ui/core/Button"
 import Box from "@material-ui/core/Box"
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
-import Accordion from "@material-ui/core/Accordion"
-import AccordionSummary from "@material-ui/core/AccordionSummary"
-import AccordionDetails from "@material-ui/core/AccordionDetails"
 import Grid from "@material-ui/core/Grid"
 
 const useStyles = makeStyles((theme) => ({
@@ -278,38 +274,28 @@ const Proc2019 = () => {
                   <div key={j}>
                     <Card>
                       <CardContent>
-                        <Accordion TransitionProps={{ unmountOnExit: true }}>
-                          <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel1a-content"
-                            id="panel1a-header"
+                        <Typography component={"div"}>
+                          <Typography component={"div"} variant="body1">
+                            <Box fontWeight="fontWeightBold">
+                              {listOfPaper.title}
+                            </Box>
+                          </Typography>
+                          <Typography
+                            className={classes.title}
+                            color="textSecondary"
+                            gutterBottom
                           >
-                            <Typography component={"div"}>
-                              <Typography component={"div"} variant="body1">
-                                <Box fontWeight="fontWeightBold">
-                                  {listOfPaper.title}
-                                </Box>
+                            {listOfPaper.authors}
+                          </Typography>
+                        </Typography>
+                        <Typography component={"div"}>
+                          <Typography className={classes.abstractTitle}>
+                            Abstract:
                               </Typography>
-                              <Typography
-                                className={classes.title}
-                                color="textSecondary"
-                                gutterBottom
-                              >
-                                {listOfPaper.authors}
-                              </Typography>
-                            </Typography>
-                          </AccordionSummary>
-                          <AccordionDetails>
-                            <Typography component={"div"}>
-                              <Typography className={classes.abstractTitle}>
-                                Abstract:
-                              </Typography>
-                              <Typography className={classes.abstract}>
-                                {listOfPaper.abstract}
-                              </Typography>
-                            </Typography>
-                          </AccordionDetails>
-                        </Accordion>
+                          <Typography className={classes.abstract}>
+                            {listOfPaper.abstract}
+                          </Typography>
+                        </Typography>
                       </CardContent>
                       <CardActions>
                         <Button
