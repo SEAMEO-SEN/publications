@@ -26,7 +26,7 @@
     "gatsby-plugin-sitemap": "^4.1.0",
     "gatsby-plugin-webfonts": "^2.1.0",
     "gatsby-source-filesystem": "^3.5.0",
-    "gatsby-transformer-sharp": "^3.4.0",
+    "gatsby-transformer-sharp": "^3.5.0",
     "gsap": "^3.6.1",
     "material-design-icons": "^3.0.1",
     "node-sass": "^6.0.0",
