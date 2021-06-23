@@ -6620,10 +6620,10 @@ gatsby-plugin-webfonts@^2.1.0:
     postcss "^8.2.2"
     postcss-js "^3.0.3"
 
-gatsby-plugin-webpack-bundle-analyser-v2@^1.1.23:
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.23.tgz#3f0588c9d73cb948afa4a8b74a34f1cc7b6acc3b"
-  integrity sha512-6g8CUX12QNtmzVoyBJQtpt58SoK+YF8Ri+wZb0l5AaMrTPgATWSAXqDuKojhSuTqTyFzGuHD6pGp0MQypIrsvA==
+gatsby-plugin-webpack-bundle-analyser-v2@^1.1.24:
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.24.tgz#25d0d1d66b7ee70bc46ac4fbb45cb37601a8baea"
+  integrity sha512-ASj5vM5XpWEKVgYE3miS0aCMkd5/RcHHFMkze46EsGMTRbdQ904iyKMjlfP6ruO7v5dX8ZJpl6K2wC37g+rlsA==
   dependencies:
     "@babel/runtime" "^7.14.6"
     webpack-bundle-analyzer "^4.4.2"
