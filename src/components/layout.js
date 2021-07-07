@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import {
   ThemeProvider,
-  createMuiTheme,
+  createTheme,
   makeStyles,
 } from "@material-ui/core/styles"
 import Header from "./header"
@@ -34,7 +34,7 @@ const Layout = ({ children, props }) => {
     setTheme(newPaletteType)
   }
 
-  const muiTheme = createMuiTheme({
+  const muiTheme = createTheme({
     palette: {
       type: theme,
       primary: indigo,

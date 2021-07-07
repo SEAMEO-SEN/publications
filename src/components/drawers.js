@@ -23,7 +23,7 @@ const Drawers = () => {
 
   return (
     <>
-      <Grid container direction="row" justify="center" alignItems="center">
+      <Grid container direction="row" justifyContent="center" alignItems="center">
         <StaticImage
           src="../images/seameosen.png"
           alt="SEAMEO SEN Logo"
