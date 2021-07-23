@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: /
+Sitemap: https://publication.seameosen.org/sitemap.xml
+Host: https://publication.seameosen.org
