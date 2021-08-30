@@ -31,7 +31,7 @@ const ResearchPage = () => {
             <Seo
                 citationTitle="Penggunaan Brailtex Bagi Meningkatkan Penguasaan Kemahiran Menulis Kod Braille Menggunakan Slate Dan Stylus"
                 citationPdfUrl="https://publication.seameosen.org/pdf/research/2020/0-2020.pdf"
-                citationAuthor="Kway Eng Hock, Pau Kee, Nurbieta Binti Bdul Aziz, Shahida Binti Hashim"
+                citationAuthor="Kway Eng Hock, Pau Kee, Nurbieta Binti Abdul Aziz, Shahida Binti Hashim"
                 citationPubDate="2020/3/30"
             />
             <Typography component={"div"} variant="body1" gutterBottom>
@@ -63,7 +63,7 @@ const ResearchPage = () => {
                                 color="textSecondary"
                                 gutterBottom
                             >
-                                Kway Eng Hock, Pau Kee, Nurbieta Binti Bdul Aziz, Shahida Binti Hashim
+                                Kway Eng Hock, Pau Kee, Nurbieta Binti Abdul Aziz, Shahida Binti Hashim
                             </Typography>
                         </Typography>
                         <Typography
