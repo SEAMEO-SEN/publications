@@ -70,6 +70,17 @@ const Drawers = () => {
           </ListItemAvatar>
           <Typography variant="inherit">Proceeding 2019</Typography>
         </MenuItem>
+        <MenuItem
+          component={Link}
+          to="/proc2021/"
+          activeStyle={{ color: "red" }}
+          className={classes.padded}
+        >
+          <ListItemAvatar>
+            <Avatar alt="Icon" src="/img/icse2021icon.jpg" />
+          </ListItemAvatar>
+          <Typography variant="inherit">Proceeding 2021</Typography>
+        </MenuItem>
       </List>
       <Divider />
       <List
