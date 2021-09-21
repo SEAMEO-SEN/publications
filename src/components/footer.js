@@ -59,7 +59,7 @@ const Footer = (props) => {
         </Button>
         <div className={classes.title} />
         <Button component={Link} size="large" to="/terms/" color="inherit">
-          Copyright &copy; {new Date().getFullYear()} SEAMEO SEN All Rights
+          Copyright &copy; 2017 - {new Date().getFullYear()} SEAMEO SEN All Rights
           Reserved
         </Button>
       </Toolbar>
