@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
 import HideOnScrollToDown from "./hideOnScrollToTop"
+import { Link } from "gatsby"
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -57,7 +58,7 @@ const Footer = (props) => {
           <YouTubeIcon />
         </Button>
         <div className={classes.title} />
-        <Button size="large" href="/terms/" color="inherit">
+        <Button component={Link} size="large" to="/terms/" color="inherit">
           Copyright &copy; {new Date().getFullYear()} SEAMEO SEN All Rights
           Reserved
         </Button>
