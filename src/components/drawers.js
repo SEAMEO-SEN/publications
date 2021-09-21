@@ -44,7 +44,7 @@ const Drawers = () => {
         disablePadding
         subheader={
           <ListSubheader component="div" id="nested-list-subheader">
-            PROCEEDING
+            PROCEEDINGS
           </ListSubheader>
         }
       >
@@ -57,7 +57,7 @@ const Drawers = () => {
           <ListItemAvatar>
             <Avatar alt="Icon" src="/img/icse2017icon.jpg" />
           </ListItemAvatar>
-          <Typography variant="inherit">Proceeding 2017</Typography>
+          <Typography variant="inherit">Proceedings 2017</Typography>
         </MenuItem>
         <MenuItem
           component={Link}
@@ -68,7 +68,7 @@ const Drawers = () => {
           <ListItemAvatar>
             <Avatar alt="Icon" src="/img/icse2019icon.jpg" />
           </ListItemAvatar>
-          <Typography variant="inherit">Proceeding 2019</Typography>
+          <Typography variant="inherit">Proceedings 2019</Typography>
         </MenuItem>
         <MenuItem
           component={Link}
@@ -79,7 +79,7 @@ const Drawers = () => {
           <ListItemAvatar>
             <Avatar alt="Icon" src="/img/icse2021icon.jpg" />
           </ListItemAvatar>
-          <Typography variant="inherit">Proceeding 2021</Typography>
+          <Typography variant="inherit">Proceedings 2021</Typography>
         </MenuItem>
       </List>
       <Divider />

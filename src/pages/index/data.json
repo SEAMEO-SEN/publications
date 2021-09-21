@@ -1,7 +1,7 @@
 {
   "conferences": [
     {
-      "confName": "ICSE Proceeding 2021",
+      "confName": "ICSE Proceedings 2021",
       "confTheme": "Inclusion: A New Curve",
       "date": "25 - 26 September 2021",
       "place": "Virtually at https://icse.seameosen.org",
@@ -9,7 +9,7 @@
       "confImgCover": "/img/icse2021cover.jpg"
     },
     {
-      "confName": "ICSE Proceeding 2019",
+      "confName": "ICSE Proceedings 2019",
       "confTheme": "Elevating Innovation for Sustainable Development of Special Needs Education",
       "date": "13 - 15 July 2019",
       "place": "Shangri La Hotel, Surabaya, Indonesia",
@@ -17,7 +17,7 @@
       "confImgCover": "/img/icse2019opt.jpg"
     },
     {
-      "confName": "ICSE Proceeding 2017",
+      "confName": "ICSE Proceedings 2017",
       "confTheme": "Access and Engagement",
       "date": "31 July -  2 Ogos 2017",
       "place": "Borneo Convention Centre Kuching, Sarawak, Malaysia",
