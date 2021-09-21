@@ -1,6 +1,14 @@
 {
   "conferences": [
     {
+      "confName": "ICSE Proceeding 2021",
+      "confTheme": "Inclusion: A New Curve",
+      "date": "25 - 26 September 2021",
+      "place": "Virtually at https://icse.seameosen.org",
+      "page": "/proc2021/",
+      "confImgCover": "/img/icse2021cover.jpg"
+    },
+    {
       "confName": "ICSE Proceeding 2019",
       "confTheme": "Elevating Innovation for Sustainable Development of Special Needs Education",
       "date": "13 - 15 July 2019",
