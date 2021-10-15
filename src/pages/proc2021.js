@@ -1,14 +1,14 @@
 import React from "react"
 import Seo from "../components/seo"
-import Typography from "@material-ui/core/Typography"
+import Typography from "@mui/material/Typography"
 import data from "./icseproc2021/data"
-import { makeStyles } from "@material-ui/core/styles"
-import Card from "@material-ui/core/Card"
-import CardContent from "@material-ui/core/CardContent"
-import CardActions from "@material-ui/core/CardActions"
-import Button from "@material-ui/core/Button"
-import Box from "@material-ui/core/Box"
-import Grid from "@material-ui/core/Grid"
+import makeStyles from '@mui/styles/makeStyles';
+import Card from "@mui/material/Card"
+import CardContent from "@mui/material/CardContent"
+import CardActions from "@mui/material/CardActions"
+import Button from "@mui/material/Button"
+import Box from "@mui/material/Box"
+import Grid from "@mui/material/Grid"
 
 const useStyles = makeStyles((theme) => ({
   padBottom: {
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     top: 80,
     right: 30,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
   },

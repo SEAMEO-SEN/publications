@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { makeStyles } from "@material-ui/core/styles"
-import useScrollTrigger from "@material-ui/core/useScrollTrigger"
-import Zoom from "@material-ui/core/Zoom"
+import makeStyles from '@mui/styles/makeStyles';
+import useScrollTrigger from "@mui/material/useScrollTrigger"
+import Zoom from "@mui/material/Zoom"
 
 const useStyles = makeStyles(theme => ({
   root: {
