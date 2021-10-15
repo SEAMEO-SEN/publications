@@ -1,28 +1,19 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { ThemeProvider, StyledEngineProvider, createTheme, adaptV4Theme } from "@mui/material/styles";
-import makeStyles from '@mui/styles/makeStyles';
+import { ThemeProvider, StyledEngineProvider, createTheme } from "@mui/material/styles";
+import Toolbar from '@mui/material/Toolbar';
 import Header from "./header"
 import Footer from "./footer"
 import Fab from "@mui/material/Fab"
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp"
 import ScrollTop from "./scrollToTop"
+import Box from '@mui/material/Box';
 
 import { indigo, pink } from '@mui/material/colors';
 
-const useStyles = makeStyles((theme) => ({
-  toolbar: theme.mixins.toolbar,
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing(3),
-    [theme.breakpoints.up("sm")]: {
-      paddingLeft: 260,
-    },
-  },
-}))
+const drawerWidth = 240
 
 const Layout = ({ children, props }) => {
-  const classes = useStyles()
 
   const [theme, setTheme] = useState("light")
 
@@ -31,7 +22,7 @@ const Layout = ({ children, props }) => {
     setTheme(newPaletteType)
   }
 
-  const muiTheme = createTheme(adaptV4Theme({
+  const muiTheme = createTheme(({
     palette: {
       mode: theme,
       primary: indigo,
@@ -45,18 +36,23 @@ const Layout = ({ children, props }) => {
   return (
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={muiTheme}>
-        <Header onToggleDark={toggleDarkTheme} />
-        <main className={classes.content}>
-          <div className={classes.toolbar} id="back-to-top-anchor" />
-          <div>{children}</div>
-          <div className={classes.toolbar} />
-          <ScrollTop {...props}>
-            <Fab color="secondary" size="small" aria-label="scroll back to top">
-              <KeyboardArrowUpIcon />
-            </Fab>
-          </ScrollTop>
-        </main>
-        <Footer />
+        <Box sx={{ display: 'flex' }}>
+          <Header onToggleDark={toggleDarkTheme} />
+          <Box
+            component="main"
+            sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
+          >
+            <Toolbar id="back-to-top-anchor" />
+            {children}
+            <Toolbar />
+            <ScrollTop {...props}>
+              <Fab color="secondary" size="small" aria-label="scroll back to top">
+                <KeyboardArrowUpIcon />
+              </Fab>
+            </ScrollTop>
+          </Box>
+          <Footer />
+        </Box>
       </ThemeProvider>
     </StyledEngineProvider>
   );
