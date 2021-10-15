@@ -1,15 +1,15 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import Grid from "@material-ui/core/Grid"
+import Grid from "@mui/material/Grid"
 import { Link } from "gatsby"
-import MenuItem from "@material-ui/core/MenuItem"
-import ListItemAvatar from "@material-ui/core/ListItemAvatar"
-import Avatar from "@material-ui/core/Avatar"
-import Typography from "@material-ui/core/Typography"
-import List from "@material-ui/core/List"
-import ListSubheader from "@material-ui/core/ListSubheader"
-import Divider from "@material-ui/core/Divider"
-import { makeStyles } from "@material-ui/core/styles"
+import MenuItem from "@mui/material/MenuItem"
+import ListItemAvatar from "@mui/material/ListItemAvatar"
+import Avatar from "@mui/material/Avatar"
+import Typography from "@mui/material/Typography"
+import List from "@mui/material/List"
+import ListSubheader from "@mui/material/ListSubheader"
+import Divider from "@mui/material/Divider"
+import makeStyles from '@mui/styles/makeStyles';
 
 const useStyles = makeStyles((theme) => ({
   padded: {

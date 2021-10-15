@@ -1,11 +1,11 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import FacebookIcon from "@material-ui/icons/Facebook"
-import TwitterIcon from "@material-ui/icons/Twitter"
-import YouTubeIcon from "@material-ui/icons/YouTube"
-import Button from "@material-ui/core/Button"
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
+import makeStyles from '@mui/styles/makeStyles';
+import FacebookIcon from "@mui/icons-material/Facebook"
+import TwitterIcon from "@mui/icons-material/Twitter"
+import YouTubeIcon from "@mui/icons-material/YouTube"
+import Button from "@mui/material/Button"
+import AppBar from "@mui/material/AppBar"
+import Toolbar from "@mui/material/Toolbar"
 import HideOnScrollToDown from "./hideOnScrollToTop"
 import { Link } from "gatsby"
 

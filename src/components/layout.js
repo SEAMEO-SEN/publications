@@ -1,17 +1,14 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import {
-  ThemeProvider,
-  createTheme,
-  makeStyles,
-} from "@material-ui/core/styles"
+import { ThemeProvider, StyledEngineProvider, createTheme, adaptV4Theme } from "@mui/material/styles";
+import makeStyles from '@mui/styles/makeStyles';
 import Header from "./header"
 import Footer from "./footer"
-import Fab from "@material-ui/core/Fab"
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp"
-import indigo from '@material-ui/core/colors/indigo';
-import pink from '@material-ui/core/colors/pink';
+import Fab from "@mui/material/Fab"
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp"
 import ScrollTop from "./scrollToTop"
+
+import { indigo, pink } from '@mui/material/colors';
 
 const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
@@ -34,33 +31,35 @@ const Layout = ({ children, props }) => {
     setTheme(newPaletteType)
   }
 
-  const muiTheme = createTheme({
+  const muiTheme = createTheme(adaptV4Theme({
     palette: {
-      type: theme,
+      mode: theme,
       primary: indigo,
       secondary: pink,
     },
     typography: {
       fontFamily: ['"Roboto Slab"'],
     },
-  })
+  }))
 
   return (
-    <ThemeProvider theme={muiTheme}>
-      <Header onToggleDark={toggleDarkTheme} />
-      <main className={classes.content}>
-        <div className={classes.toolbar} id="back-to-top-anchor" />
-        <div>{children}</div>
-        <div className={classes.toolbar} />
-        <ScrollTop {...props}>
-          <Fab color="secondary" size="small" aria-label="scroll back to top">
-            <KeyboardArrowUpIcon />
-          </Fab>
-        </ScrollTop>
-      </main>
-      <Footer />
-    </ThemeProvider>
-  )
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={muiTheme}>
+        <Header onToggleDark={toggleDarkTheme} />
+        <main className={classes.content}>
+          <div className={classes.toolbar} id="back-to-top-anchor" />
+          <div>{children}</div>
+          <div className={classes.toolbar} />
+          <ScrollTop {...props}>
+            <Fab color="secondary" size="small" aria-label="scroll back to top">
+              <KeyboardArrowUpIcon />
+            </Fab>
+          </ScrollTop>
+        </main>
+        <Footer />
+      </ThemeProvider>
+    </StyledEngineProvider>
+  );
 }
 
 Layout.propTypes = {

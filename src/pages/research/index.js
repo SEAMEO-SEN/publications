@@ -2,13 +2,13 @@ import React from "react"
 import Seo from "../../components/seo"
 import data from "./data"
 import { Link } from "gatsby"
-import { makeStyles } from "@material-ui/core/styles"
-import Typography from "@material-ui/core/Typography"
-import Button from "@material-ui/core/Button"
-import List from '@material-ui/core/List'
-import ListItem from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
-import Divider from '@material-ui/core/Divider'
+import makeStyles from '@mui/styles/makeStyles';
+import Typography from "@mui/material/Typography"
+import Button from "@mui/material/Button"
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemText from '@mui/material/ListItemText'
+import Divider from '@mui/material/Divider'
 
 const useStyles = makeStyles((theme) => ({
   root: {

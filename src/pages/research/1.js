@@ -1,11 +1,11 @@
 import React from "react"
 import SeoScolar from "../../components/scholarSeo"
-import { makeStyles } from "@material-ui/core/styles"
-import Typography from "@material-ui/core/Typography"
-import Card from "@material-ui/core/Card"
-import CardContent from "@material-ui/core/CardContent"
-import CardActions from "@material-ui/core/CardActions"
-import Button from "@material-ui/core/Button"
+import makeStyles from '@mui/styles/makeStyles';
+import Typography from "@mui/material/Typography"
+import Card from "@mui/material/Card"
+import CardContent from "@mui/material/CardContent"
+import CardActions from "@mui/material/CardActions"
+import Button from "@mui/material/Button"
 
 const useStyles = makeStyles((theme) => ({
     padded: {
