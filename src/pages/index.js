@@ -1,7 +1,6 @@
 import React from "react"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
-import makeStyles from '@mui/styles/makeStyles';
 import Grid from "@mui/material/Grid"
 import Card from "@mui/material/Card"
 import CardHeader from "@mui/material/CardHeader"
@@ -12,23 +11,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook"
 import Button from "@mui/material/Button"
 import data from "./index/data"
 
-const useStyles = makeStyles((theme) => ({
-  card: {
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-  },
-  media: {
-    height: 500,
-  },
-  center: {
-    justifyContent: "center",
-  },
-}))
-
 const IndexPage = () => {
-  const classes = useStyles()
 
   return (
     <>
@@ -36,9 +19,14 @@ const IndexPage = () => {
       <Grid container spacing={2}>
         {data.conferences.map((conference, j) => (
           <Grid key={j} item xs={12} sm={12} md={6} lg={4}>
-            <Card className={classes.card}>
+            <Card sx={{
+              height: "100%",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}>
               <CardMedia
-                className={classes.media}
+                sx={{ height: 500 }}
                 image={conference.confImgCover}
                 title={conference.confName}
               />
@@ -47,7 +35,7 @@ const IndexPage = () => {
                 subheader={conference.confTheme}
               />
               <CardContent>{conference.place}</CardContent>
-              <CardActions className={classes.center}>
+              <CardActions sx={{ justifyContent: "center" }}>
                 <Button
                   size="large"
                   color="primary"
