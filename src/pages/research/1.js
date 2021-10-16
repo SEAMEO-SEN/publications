@@ -1,5 +1,5 @@
 import React from "react"
-import SeoScolar from "../../components/scholarSeo"
+import Seo from "../../components/scholarSeo"
 import makeStyles from '@mui/styles/makeStyles';
 import Typography from "@mui/material/Typography"
 import Card from "@mui/material/Card"
@@ -8,18 +8,11 @@ import CardActions from "@mui/material/CardActions"
 import Button from "@mui/material/Button"
 
 const useStyles = makeStyles((theme) => ({
-    padded: {
-        paddingTop: theme.spacing(1.5),
-        paddingBottom: theme.spacing(1.5),
-    },
     oblique: {
         fontStyle: "oblique",
         textAlign: "justify",
         textJustify: "inter-word",
     },
-    padBottom: {
-        paddingBottom: theme.spacing(0.5),
-    }
 }))
 
 const ResearchPage = () => {
@@ -27,14 +20,13 @@ const ResearchPage = () => {
 
     return (
         <>
-            <SeoScolar
+            <Seo
                 citationTitle="An Awareness Among Level One Teachers Towards Sen In Kapit, Sarawak: A Qualitative Study"
                 citationAuthor="Mohd Isa Hamzah, Mohd Hanafi Yasin, Mokhtar Tahar, Safani Bari, Zolkepeli Haron, Mohd Jasmay Abdul Rahman, Mohd Anis Abdul Razak, Amiruddin Abu Samah, Nur Kamariah Ensimau"
                 citationPdfUrl="https://publication.seameosen.org/pdf/research/2019/1-2019.pdf"
                 citationPubDate="2019/3/24"
             />
             <Typography component={"div"} variant="body1" gutterBottom>
-                <div className={classes.padded}></div>
                 <Card>
                     <CardContent>
                         <Typography component={"div"}>
@@ -66,7 +58,6 @@ const ResearchPage = () => {
                             </Typography>
                         </Typography>
                         <Typography
-                            className={classes.padBottom}
                             component={"div"}
                             variant="body1"
                         >
@@ -88,7 +79,6 @@ const ResearchPage = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <div className={classes.padded}></div>
             </Typography>
         </>
     )

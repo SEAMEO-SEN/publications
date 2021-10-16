@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../../components/seo"
+import Seo from "../../components/scholarSeo"
 import makeStyles from '@mui/styles/makeStyles';
 import Typography from "@mui/material/Typography"
 import Card from "@mui/material/Card"
@@ -8,18 +8,11 @@ import CardActions from "@mui/material/CardActions"
 import Button from "@mui/material/Button"
 
 const useStyles = makeStyles((theme) => ({
-    padded: {
-        paddingTop: theme.spacing(1.5),
-        paddingBottom: theme.spacing(1.5),
-    },
     oblique: {
         fontStyle: "oblique",
         textAlign: "justify",
         textJustify: "inter-word",
     },
-    padBottom: {
-        paddingBottom: theme.spacing(0.5),
-    }
 }))
 
 const ResearchPage = () => {
@@ -28,13 +21,13 @@ const ResearchPage = () => {
     return (
         <>
             <Seo
+                title="Tahap Kesedaran Guru Tahap 1 Terhadap Kepelbagaian Murid Berkeperluan Khas Dalam Bilik Darjah"
                 citationTitle="Tahap Kesedaran Guru Tahap 1 Terhadap Kepelbagaian Murid Berkeperluan Khas Dalam Bilik Darjah"
                 citationPdfUrl="https://publication.seameosen.org/pdf/research/2019/3-2019.pdf"
                 citationAuthor="Safani Bari, Mohd Anis Abdul Razak, Amiruddin Abu Samah, Mohd Isa Hamzah, Mohd Hanafi Mohd Yassin, Mohd Mokhtar Tahar, Zolkepeli Harun, Mohd Jasmy Abd Rahman, Nur Kamariah Ensimau Abdullah"
                 citationPubDate="2019/3/30"
             />
             <Typography component={"div"} variant="body1" gutterBottom>
-                <div className={classes.padded}></div>
                 <Card>
                     <CardContent>
                         <Typography component={"div"}>
@@ -66,7 +59,6 @@ const ResearchPage = () => {
                             </Typography>
                         </Typography>
                         <Typography
-                            className={classes.padBottom}
                             component={"div"}
                             variant="body1"
                         >
@@ -88,7 +80,6 @@ const ResearchPage = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <div className={classes.padded}></div>
             </Typography>
         </>
     )

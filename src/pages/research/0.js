@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../../components/seo"
+import Seo from "../../components/scholarSeo"
 import makeStyles from '@mui/styles/makeStyles';
 import Typography from "@mui/material/Typography"
 import Card from "@mui/material/Card"
@@ -8,18 +8,11 @@ import CardActions from "@mui/material/CardActions"
 import Button from "@mui/material/Button"
 
 const useStyles = makeStyles((theme) => ({
-    padded: {
-        paddingTop: theme.spacing(1.5),
-        paddingBottom: theme.spacing(1.5),
-    },
     oblique: {
         fontStyle: "oblique",
         textAlign: "justify",
         textJustify: "inter-word",
     },
-    padBottom: {
-        paddingBottom: theme.spacing(0.5),
-    }
 }))
 
 const ResearchPage = () => {
@@ -35,7 +28,6 @@ const ResearchPage = () => {
                 citationPubDate="2020/3/30"
             />
             <Typography component={"div"} variant="body1" gutterBottom>
-                <div className={classes.padded}></div>
                 <Card>
                     <CardContent>
                         <Typography component={"div"}>
@@ -67,7 +59,6 @@ const ResearchPage = () => {
                             </Typography>
                         </Typography>
                         <Typography
-                            className={classes.padBottom}
                             component={"div"}
                             variant="body1"
                         >
@@ -89,7 +80,6 @@ const ResearchPage = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <div className={classes.padded}></div>
             </Typography>
         </>
     )
