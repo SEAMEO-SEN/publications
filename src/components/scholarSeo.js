@@ -10,12 +10,17 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SeoScolar = ({ 
-  description, lang, meta, title, citationTitle, 
+const SeoScolar = ({
+  description,
+  lang,
+  meta,
+  title,
+  citationTitle,
   citationAuthor,
-  citationPubDate, citationJournalTitle, citationPdfUrl 
-  }) => {
-
+  citationPubDate,
+  citationJournalTitle,
+  citationPdfUrl,
+}) => {
   const { site } = useStaticQuery(
     graphql`
       query {

@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography"
 import List from "@mui/material/List"
 import ListSubheader from "@mui/material/ListSubheader"
 import Divider from "@mui/material/Divider"
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from "@mui/styles/makeStyles"
 
 const useStyles = makeStyles((theme) => ({
   padded: {
@@ -23,7 +23,12 @@ const Drawers = () => {
 
   return (
     <>
-      <Grid container direction="row" justifyContent="center" alignItems="center">
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+      >
         <StaticImage
           src="../images/seameosen.png"
           alt="SEAMEO SEN Logo"

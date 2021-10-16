@@ -4,13 +4,12 @@ import data from "./data"
 import { Link } from "gatsby"
 import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
-import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import ListItemText from '@mui/material/ListItemText'
-import Divider from '@mui/material/Divider'
+import List from "@mui/material/List"
+import ListItem from "@mui/material/ListItem"
+import ListItemText from "@mui/material/ListItemText"
+import Divider from "@mui/material/Divider"
 
 const ResearchPage = () => {
-
   return (
     <>
       <Seo
@@ -25,10 +24,7 @@ const ResearchPage = () => {
         {data.papers.map((paper, i) => (
           <div key={i}>
             <List>
-              <ListItem
-                component={Link}
-                to={"/research/" + paper.id}
-              >
+              <ListItem component={Link} to={"/research/" + paper.id}>
                 <ListItemText primary={paper.title} secondary={paper.authors} />
                 <Button
                   component={Link}

@@ -1,5 +1,5 @@
 import React from "react"
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from "@mui/styles/makeStyles"
 import FacebookIcon from "@mui/icons-material/Facebook"
 import TwitterIcon from "@mui/icons-material/Twitter"
 import YouTubeIcon from "@mui/icons-material/YouTube"
@@ -28,42 +28,42 @@ const Footer = (props) => {
 
   return (
     <HideOnScrollToDown {...props}>
-    <AppBar className={classes.appBar}>
-      <Toolbar>
-        <Button
-          size="large"
-          href="https://facebook.seameosen.org"
-          target="_blank"
-          rel="noopener"
-          color="inherit"
-        >
-          <FacebookIcon />
-        </Button>
-        <Button
-          size="large"
-          href="https://twitter.seameosen.org"
-          target="_blank"
-          rel="noopener"
-          color="inherit"
-        >
-          <TwitterIcon />
-        </Button>
-        <Button
-          size="large"
-          href="https://youtube.seameosen.org"
-          target="_blank"
-          rel="noopener"
-          color="inherit"
-        >
-          <YouTubeIcon />
-        </Button>
-        <div className={classes.title} />
-        <Button component={Link} size="large" to="/terms/" color="inherit">
-          Copyright &copy; 2017 - {new Date().getFullYear()} SEAMEO SEN All Rights
-          Reserved
-        </Button>
-      </Toolbar>
-    </AppBar>
+      <AppBar className={classes.appBar}>
+        <Toolbar>
+          <Button
+            size="large"
+            href="https://facebook.seameosen.org"
+            target="_blank"
+            rel="noopener"
+            color="inherit"
+          >
+            <FacebookIcon />
+          </Button>
+          <Button
+            size="large"
+            href="https://twitter.seameosen.org"
+            target="_blank"
+            rel="noopener"
+            color="inherit"
+          >
+            <TwitterIcon />
+          </Button>
+          <Button
+            size="large"
+            href="https://youtube.seameosen.org"
+            target="_blank"
+            rel="noopener"
+            color="inherit"
+          >
+            <YouTubeIcon />
+          </Button>
+          <div className={classes.title} />
+          <Button component={Link} size="large" to="/terms/" color="inherit">
+            Copyright &copy; 2017 - {new Date().getFullYear()} SEAMEO SEN All
+            Rights Reserved
+          </Button>
+        </Toolbar>
+      </AppBar>
     </HideOnScrollToDown>
   )
 }

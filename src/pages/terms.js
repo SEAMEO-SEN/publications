@@ -2,7 +2,6 @@ import React from "react"
 import Seo from "../components/seo"
 
 const TermsPage = () => {
-
   return (
     <>
       <Seo title="Terms and Condition" />
