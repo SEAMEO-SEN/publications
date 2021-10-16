@@ -14,11 +14,6 @@ module.exports = {
     `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-material-ui`,
-      options: {
-        stylesProvider: {
-          injectFirst: true,
-        },
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
