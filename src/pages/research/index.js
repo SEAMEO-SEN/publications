@@ -2,7 +2,6 @@ import React from "react"
 import Seo from "../../components/seo"
 import data from "./data"
 import { Link } from "gatsby"
-import makeStyles from '@mui/styles/makeStyles';
 import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import List from '@mui/material/List'
@@ -10,14 +9,7 @@ import ListItem from '@mui/material/ListItem'
 import ListItemText from '@mui/material/ListItemText'
 import Divider from '@mui/material/Divider'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: theme.palette.background.paper,
-  },
-}))
-
 const ResearchPage = () => {
-  const classes = useStyles()
 
   return (
     <>
@@ -32,7 +24,7 @@ const ResearchPage = () => {
       <Typography component={"div"} variant="body1" gutterBottom>
         {data.papers.map((paper, i) => (
           <div key={i}>
-            <List className={classes.root}>
+            <List>
               <ListItem
                 component={Link}
                 to={"/research/" + paper.id}
