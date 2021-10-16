@@ -12,19 +12,20 @@ import Button from "@mui/material/Button"
 import data from "./index/data"
 
 const IndexPage = () => {
-
   return (
     <>
       <Seo title="Welcome to SEAMEO SEN Publication Site" />
       <Grid container spacing={2}>
         {data.conferences.map((conference, j) => (
           <Grid key={j} item xs={12} sm={12} md={6} lg={4}>
-            <Card sx={{
-              height: "100%",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}>
+            <Card
+              sx={{
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+              }}
+            >
               <CardMedia
                 sx={{ height: 500 }}
                 image={conference.confImgCover}

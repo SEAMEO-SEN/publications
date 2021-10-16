@@ -13,9 +13,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-preact`,
     {
-      resolve: `gatsby-plugin-material-ui`,
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

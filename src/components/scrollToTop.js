@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from "@mui/styles/makeStyles"
 import useScrollTrigger from "@mui/material/useScrollTrigger"
 import Zoom from "@mui/material/Zoom"
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     position: "fixed",
     bottom: theme.spacing(6),
@@ -20,7 +20,7 @@ const ScrollTop = ({ children }) => {
     threshold: 100,
   })
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     const anchor = (event.target.ownerDocument || document).querySelector(
       "#back-to-top-anchor"
     )

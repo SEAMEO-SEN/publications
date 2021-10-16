@@ -2,15 +2,16 @@ import React from "react"
 import Seo from "../components/seo"
 import Typography from "@mui/material/Typography"
 import data from "./icseproc2017/data"
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from "@mui/styles/makeStyles"
 import Card from "@mui/material/Card"
 import CardContent from "@mui/material/CardContent"
 import CardActions from "@mui/material/CardActions"
 import Button from "@mui/material/Button"
 import Box from "@mui/material/Box"
 import Grid from "@mui/material/Grid"
+import theme from "../components/theme"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   padBottom: {
     paddingBottom: theme.spacing(3),
   },
@@ -35,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     top: 80,
     right: 30,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down("md")]: {
       display: "none",
     },
   },
@@ -293,7 +294,7 @@ const Proc2017 = () => {
                         <Typography component={"div"}>
                           <Typography className={classes.abstractTitle}>
                             Abstract:
-                              </Typography>
+                          </Typography>
                           <Typography className={classes.abstract}>
                             {listOfPaper.abstract}
                           </Typography>
