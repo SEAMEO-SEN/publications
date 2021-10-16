@@ -347,7 +347,21 @@ const Proc2021 = () => {
           <Button size="small" href="#listOfPaper">
             List of Full Paper
           </Button>
-          <br />
+          <Box sx={{
+            paddingTop: 1,
+          }} />
+          <Button
+            sx={{
+              textAlign: "center",
+            }}
+            href={
+              "/pdf/icse/2021/icse2021full.pdf"
+            }
+            target="_blank"
+            rel="noopener"
+            variant="contained" size="small">
+            DOWNLOAD PROCEEDINGS
+          </Button>
         </Grid>
       </Grid>
     </>
