@@ -10,7 +10,7 @@ import Button from "@mui/material/Button"
 import Box from "@mui/material/Box"
 import Grid from "@mui/material/Grid"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(({theme}) => ({
   padBottom: {
     paddingBottom: theme.spacing(3),
   },
