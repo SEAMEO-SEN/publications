@@ -1966,19 +1966,6 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
   integrity sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==
 
-"@mui/core@5.0.0-alpha.52":
-  version "5.0.0-alpha.52"
-  resolved "https://registry.yarnpkg.com/@mui/core/-/core-5.0.0-alpha.52.tgz#dc64d25a6b5d414c8dfe8b2ddfe96c075cce2084"
-  integrity sha512-L1A7bkWDu9BJCIOu4s5o46D+VaeCcNQJoe4CRIJnOJGihUnaOB861xg+ZTrfcqwmr8yxIOU8GucHozLxK1VMRQ==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    "@emotion/is-prop-valid" "^1.1.0"
-    "@mui/utils" "^5.0.1"
-    "@popperjs/core" "^2.4.4"
-    clsx "^1.1.1"
-    prop-types "^15.7.2"
-    react-is "^17.0.2"
-
 "@mui/core@5.0.0-alpha.53":
   version "5.0.0-alpha.53"
   resolved "https://registry.yarnpkg.com/@mui/core/-/core-5.0.0-alpha.53.tgz#ede1445be3bf5a93d25bdd8ead23afdfb1b68f8b"
@@ -2018,14 +2005,14 @@
     react-transition-group "^4.4.2"
     rifm "^0.12.0"
 
-"@mui/material@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.0.5.tgz#c4f0090a45f9f2b7c7494dbdae65a614f62d7da2"
-  integrity sha512-3AnGXf+jvQKEykR1fmaO0/5kyYNqRMT0Nbx3pnMTeqeV1LruBdha2JWc6A+/3ClgdhBHtfeHi1hvzgBbK2d6+A==
+"@mui/material@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.0.6.tgz#0e688c918fd88a07f59385614c65fce937077a9f"
+  integrity sha512-1NmLel2Q+PnSfhFhdrhTbZFLfGpGKcPbu8onwGJu+vbD3YMTjr8gXvQ/sYZC0Motfu8jLnQdlq4FD4fRhqndnw==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    "@mui/core" "5.0.0-alpha.52"
-    "@mui/system" "^5.0.5"
+    "@mui/core" "5.0.0-alpha.53"
+    "@mui/system" "^5.0.6"
     "@mui/types" "^7.0.0"
     "@mui/utils" "^5.0.1"
     "@types/react-transition-group" "^4.4.4"
@@ -2077,7 +2064,7 @@
     jss-plugin-vendor-prefixer "^10.8.1"
     prop-types "^15.7.2"
 
-"@mui/system@^5.0.5", "@mui/system@^5.0.6":
+"@mui/system@^5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@mui/system/-/system-5.0.6.tgz#053ad18e3888f041137db9f0c0ac1486c86972a0"
   integrity sha512-qZdgODiO82/r1bH9KV5bdqqx/q14i32OGUK/bO6phhXM/DX0TmWSUsnPqFX4F7/UKrvBHsGzIb8ohdRuihQD+Q==
