@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@mui/icons-material": "^5.2.5",
     "@mui/lab": "^5.0.0-alpha.64",
-    "@mui/material": "^5.2.7",
+    "@mui/material": "^5.2.8",
     "@mui/styles": "^5.2.3",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
