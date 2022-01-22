@@ -56,8 +56,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: "2",
-        matomoUrl: "https://tracker.hurtsky.com",
+        siteId: "1",
+        matomoUrl: "https://tracker.seameosen.edu.my",
         siteUrl: "https://publication.seameosen.org",
       },
     },
