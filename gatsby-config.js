@@ -11,7 +11,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
