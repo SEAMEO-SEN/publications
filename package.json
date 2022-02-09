@@ -30,7 +30,7 @@
     "gatsby-plugin-sitemap": "^5.7.0",
     "gatsby-plugin-webfonts": "^2.2.1",
     "gatsby-source-filesystem": "^4.6.0",
-    "gatsby-transformer-sharp": "^4.6.0",
+    "gatsby-transformer-sharp": "^4.7.0",
     "gsap": "^3.9.1",
     "material-design-icons": "^3.0.1",
     "node-sass": "^7.0.1",
