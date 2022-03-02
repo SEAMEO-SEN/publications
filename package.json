@@ -25,7 +25,7 @@
     "gatsby-plugin-offline": "^5.8.1",
     "gatsby-plugin-react-helmet": "^5.8.0",
     "gatsby-plugin-robots-txt": "^1.7.0",
-    "gatsby-plugin-sass": "^5.8.0",
+    "gatsby-plugin-sass": "^5.9.0",
     "gatsby-plugin-sharp": "^4.8.1",
     "gatsby-plugin-sitemap": "^5.8.0",
     "gatsby-plugin-webfonts": "^2.2.1",
