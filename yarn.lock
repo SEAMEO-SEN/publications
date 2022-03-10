@@ -3935,10 +3935,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-create-gatsby@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.8.0.tgz#8564d7895ee056d4d65035c2d2bf1853fd65354b"
-  integrity sha512-ajRtxbSj8szzrOkoS90UtD0SViPsav0l9XW96Xytob/OhR+Q+xklL8KyA2ObJoKIRWkHwaFv0D3fp0lXOJR3BQ==
+create-gatsby@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.9.0.tgz#560d02551eda31b3038b7c71b772b801e20685b0"
+  integrity sha512-xl4bMKm4Buz4btVcU8FenspTJQdegv/4G2z7REKsTempdUWAU6wh8nyKlMWGNUJV2K8oQ6oGLXSJbL4a0LTglQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
@@ -5533,10 +5533,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^4.8.0, gatsby-cli@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.8.1.tgz#e9e45ff595c5d1f5a0700f9f99fa79f9b19be775"
-  integrity sha512-F72TiIdc767JauncyNgX7JBvV3AZwuEoAriwvJQClPvTB1RXQXmgrDH5Wvv5eeqo8KDCu+6A8veQmqcOn/IoPg==
+gatsby-cli@^4.8.1, gatsby-cli@^4.9.1:
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.9.1.tgz#abe57cc656329deb69aef3d75b5cb14f36473d8e"
+  integrity sha512-iU5pmwAq5d1XXo98BkYe2KccH3Dy/jsj7QsvP0CpfzOO0EFtidg5KUzPPaekLaGyoqxiMwWf0uAX7S1ERzMFYw==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -5553,13 +5553,13 @@ gatsby-cli@^4.8.0, gatsby-cli@^4.8.1:
     common-tags "^1.8.2"
     configstore "^5.0.1"
     convert-hrtime "^3.0.0"
-    create-gatsby "^2.8.0"
+    create-gatsby "^2.9.0"
     envinfo "^7.8.1"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.8.1"
-    gatsby-telemetry "^3.8.1"
+    gatsby-core-utils "^3.9.1"
+    gatsby-telemetry "^3.9.1"
     hosted-git-info "^3.0.8"
     is-valid-path "^0.1.1"
     joi "^17.4.2"
