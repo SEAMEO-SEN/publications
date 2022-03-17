@@ -17,7 +17,7 @@
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
     "gatsby": "^4.9.3",
-    "gatsby-cli": "^4.9.1",
+    "gatsby-cli": "^4.10.0",
     "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-material-ui": "^4.1.0",
