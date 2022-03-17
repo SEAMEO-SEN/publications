@@ -29,7 +29,7 @@
     "gatsby-plugin-sharp": "^4.9.1",
     "gatsby-plugin-sitemap": "^5.9.0",
     "gatsby-plugin-webfonts": "^2.2.1",
-    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-source-filesystem": "^4.10.0",
     "gatsby-transformer-sharp": "^4.9.0",
     "gsap": "^3.9.1",
     "material-design-icons": "^3.0.1",
