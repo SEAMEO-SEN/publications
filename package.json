@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.26",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.0"
   },
   "keywords": [
     "gatsby"
