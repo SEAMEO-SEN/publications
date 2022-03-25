@@ -14,7 +14,7 @@
     "@mui/lab": "^5.0.0-alpha.74",
     "@mui/material": "^5.5.2",
     "@mui/styles": "^5.5.1",
-    "@types/react": "^17.0.42",
+    "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "gatsby": "^4.10.3",
     "gatsby-cli": "^4.10.2",
