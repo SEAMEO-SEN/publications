@@ -3662,7 +3662,7 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
 
-babel-plugin-remove-graphql-queries@^4.14.0, babel-plugin-remove-graphql-queries@^4.15.0:
+babel-plugin-remove-graphql-queries@^4.15.0:
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.15.0.tgz#602b55cd73367666ae23e0cfa212bb227bfce6b6"
   integrity sha512-Jkc9DbXWvhtKddEqH0KXtXEQcqQIEBb43+NjRbQam+i1X8v1Dlq3EsWAaxDMLw8Wx3Hsb00CfiQw9z9eXEpb2A==
@@ -6458,10 +6458,10 @@ gatsby-plugin-page-creator@^4.15.0:
     globby "^11.1.0"
     lodash "^4.17.21"
 
-gatsby-plugin-react-helmet@^5.14.0:
-  version "5.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.14.0.tgz#35d5c9855a4ff0fcde4b78f44d8d9a4d2a255f94"
-  integrity sha512-Loy0fUtVDhEuvv1nCpsyyUpAosGRUB3g5GzHvV3oqxcGgrpTgeXTPH64drXuRKcHyJbH1vgUOuPdlIEzXDbQMQ==
+gatsby-plugin-react-helmet@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.15.0.tgz#8011e317199c3ed87e7527d4462f0655609b8db7"
+  integrity sha512-hxazz0Eea2CAUxglarK9XdtFChzbypLkD8Doe6l83cgdeLv7C5KJw2vZEpkvRyd4fgztNSkKprXT84if7IvD2g==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
