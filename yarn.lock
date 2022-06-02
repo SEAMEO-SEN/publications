@@ -6384,10 +6384,10 @@ gatsby-parcel-config@0.6.0:
     "@parcel/transformer-raw" "2.5.0"
     "@parcel/transformer-react-refresh-wrap" "2.5.0"
 
-gatsby-plugin-image@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.15.0.tgz#5c2f2de7bf053518295da4b2dafee5fddbf23897"
-  integrity sha512-+r9gR9vz1W9RCQ+yANcHCE1tvbJNwKw4pV6A5B7ca5r9fU62ycWvGIOfAkVZntxOSh/oCBAzwnLI/TD+oBmdEA==
+gatsby-plugin-image@^2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.15.1.tgz#6b4f34fed2c1a6cea9dceb45b7ce377b849635f9"
+  integrity sha512-Zicg8tOJJfLtKp8bN7BqF4aH9Sf3C4sEJ7sTNV6RDtLleFy5GQb40mTVIV+yvxD6AOXKko9wicc5XOrKBvRXyA==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/parser" "^7.15.5"
@@ -6400,7 +6400,7 @@ gatsby-plugin-image@^2.15.0:
     common-tags "^1.8.2"
     fs-extra "^10.1.0"
     gatsby-core-utils "^3.15.0"
-    gatsby-plugin-utils "^3.9.0"
+    gatsby-plugin-utils "^3.9.1"
     objectFitPolyfill "^2.3.5"
     prop-types "^15.8.1"
 
