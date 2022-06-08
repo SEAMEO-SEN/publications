@@ -70,7 +70,7 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.0"
 
-"@babel/generator@^7.14.0", "@babel/generator@^7.17.10":
+"@babel/generator@^7.14.0", "@babel/generator@^7.16.8", "@babel/generator@^7.17.10":
   version "7.17.10"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.17.10.tgz#c281fa35b0c349bbe9d02916f4ae08fc85ed7189"
   integrity sha512-46MJZZo9y3o4kmhBVc7zW7i8dtR1oIK/sdO5NcfcZRhTGYi+KKJRtHNgsU6c4VUcJmUNV/LQdebD/9Dlv4K+Tg==
@@ -78,15 +78,6 @@
     "@babel/types" "^7.17.10"
     "@jridgewell/gen-mapping" "^0.1.0"
     jsesc "^2.5.1"
-
-"@babel/generator@^7.16.8":
-  version "7.17.9"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.17.9.tgz#f4af9fd38fa8de143c29fce3f71852406fc1e2fc"
-  integrity sha512-rAdDousTwxbIxbz5I7GEQ3lUip+xVCXooZNbsydCWs3xA7ZsYOv+CFRdzGxRX78BmQHu9B1Eso59AOZQOJDEdQ==
-  dependencies:
-    "@babel/types" "^7.17.0"
-    jsesc "^2.5.1"
-    source-map "^0.5.0"
 
 "@babel/helper-annotate-as-pure@^7.16.7":
   version "7.16.7"
@@ -1979,10 +1970,10 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.11.tgz#771a1d8d744eeb71b6adb35808e1a6c7b9b8c8ec"
   integrity sha512-Fg32GrJo61m+VqYSdRSjRXMjQ06j8YIYfcTqndLYVAaHmroZHLJZCydsWBOTDqXS2v+mjxohBWEMfg97GXmYQg==
 
-"@jridgewell/trace-mapping@^0.3.0":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.5.tgz#c2a1004a82b074d47e6ffeb4f11aed076c915509"
-  integrity sha512-JVOWdxPmgNsrNKVyhFNB08go/kCnXUT5m3Ds11F3lh3oKzCHTzs3IHRC9VI0t8mNyL4TfypxTiwQPU+77Sfm6g==
+"@jridgewell/trace-mapping@^0.3.0", "@jridgewell/trace-mapping@^0.3.13":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.13.tgz#dcfe3e95f224c8fe97a87a5235defec999aa92ea"
+  integrity sha512-o1xbKhp9qnIAoHJSWd6KlCZfqslL4valSF81H8ImioOAxluWYWOpWkpyktY2vnt4tbrX9XYaxovq6cgowaJp2w==
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
@@ -4639,10 +4630,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-create-gatsby@^2.15.1:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.15.1.tgz#a9b57d71f11b78caddcbb52c5e6a0750ad0e9849"
-  integrity sha512-oFZtU5NP5jUa/A/y6p8L2pNkW+BoE0aTPTYbZ+pwQw9sE7MfYeI+t9yNDBA/9qVaaAqUt7104NkQbix/mT1GVw==
+create-gatsby@^2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.16.0.tgz#a123fa24f24eb590dd0b50f41578cb56bed6fea7"
+  integrity sha512-X/4fu+C8qBtfI9JTnnhI+zBFwe2V7uC27XEnA/9GbCp507xuiqkO6MuUJGDxdhe0cDBub+KD+3TLQ94XaXiJpg==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
@@ -6252,10 +6243,10 @@ functions-have-names@^1.2.2:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
-gatsby-cli@^4.14.0, gatsby-cli@^4.15.1:
-  version "4.15.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.15.1.tgz#716cd27e7a1d5e217f15741d27a294146e8b0539"
-  integrity sha512-PlwcfOYVpG1/YsctnY8M2sNt1wNR46AQD0SKg/lTMdjB/EhBp4jNQNYTEp5eZihOu7Ap98/igM+RMrAUFttj5g==
+gatsby-cli@^4.15.1, gatsby-cli@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.16.0.tgz#2342b1a791831f4111bad1c4c893d24e3d8ee3d3"
+  integrity sha512-VBQK46y5ZFKNQT4rCH134Du//y2hrxf7NXPB4WN+WzzplwtSo6wmU7cG1rPZWVNDCwZcJ1fpJCVIgKA62zAivw==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -6265,6 +6256,7 @@ gatsby-cli@^4.14.0, gatsby-cli@^4.15.1:
     "@babel/runtime" "^7.15.4"
     "@babel/template" "^7.16.7"
     "@babel/types" "^7.16.8"
+    "@jridgewell/trace-mapping" "^0.3.13"
     "@types/common-tags" "^1.8.1"
     better-opn "^2.1.1"
     boxen "^5.1.2"
@@ -6273,13 +6265,13 @@ gatsby-cli@^4.14.0, gatsby-cli@^4.15.1:
     common-tags "^1.8.2"
     configstore "^5.0.1"
     convert-hrtime "^3.0.0"
-    create-gatsby "^2.15.1"
+    create-gatsby "^2.16.0"
     envinfo "^7.8.1"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.1.0"
-    gatsby-core-utils "^3.15.0"
-    gatsby-telemetry "^3.15.0"
+    gatsby-core-utils "^3.16.0"
+    gatsby-telemetry "^3.16.0"
     hosted-git-info "^3.0.8"
     is-valid-path "^0.1.1"
     joi "^17.4.2"
@@ -6294,7 +6286,6 @@ gatsby-cli@^4.14.0, gatsby-cli@^4.15.1:
     resolve-cwd "^3.0.0"
     semver "^7.3.7"
     signal-exit "^3.0.6"
-    source-map "0.7.3"
     stack-trace "^0.0.10"
     strip-ansi "^6.0.1"
     update-notifier "^5.1.0"
@@ -6614,10 +6605,10 @@ gatsby-source-filesystem@^4.16.0:
     valid-url "^1.0.9"
     xstate "^4.26.1"
 
-gatsby-telemetry@^3.15.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.15.0.tgz#10a211b2b74d04ec94cade5230f21d779abda0fd"
-  integrity sha512-pXHnw79qmfN5bAVkgdQMCnq7rZFxfGU1YkZJQAG+gCsLRpDgYxgxZYhkbdRJzyF8vMYiCp7HlNsCMvBA75Rpug==
+gatsby-telemetry@^3.15.0, gatsby-telemetry@^3.16.0:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.16.0.tgz#5feed051c562b52bbcba7e85c9f9a7b0f1afad87"
+  integrity sha512-u7s3/VoWwYO7gyqiEn7J1YiNxsdn26WSFL9egFM5jH1IMnj86fiFM4EnDfcaZ5MSTEA1dFqBa6hidwhrpv2rhw==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.15.4"
@@ -6627,7 +6618,7 @@ gatsby-telemetry@^3.15.0:
     boxen "^4.2.0"
     configstore "^5.0.1"
     fs-extra "^10.1.0"
-    gatsby-core-utils "^3.15.0"
+    gatsby-core-utils "^3.16.0"
     git-up "^4.0.5"
     is-docker "^2.2.1"
     lodash "^4.17.21"
@@ -11398,15 +11389,15 @@ source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-source-map@0.7.3, source-map@^0.7.1, source-map@^0.7.3, source-map@~0.7.2:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
-  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
-
-source-map@^0.5.0, source-map@^0.5.7:
+source-map@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
+
+source-map@^0.7.1, source-map@^0.7.3, source-map@~0.7.2:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 spdx-correct@^3.0.0:
   version "3.1.1"
