@@ -13,7 +13,7 @@
     "@mui/icons-material": "^5.8.3",
     "@mui/lab": "^5.0.0-alpha.85",
     "@mui/material": "^5.8.3",
-    "@mui/styles": "^5.8.3",
+    "@mui/styles": "^5.8.4",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.5",
     "gatsby": "^4.16.0",
