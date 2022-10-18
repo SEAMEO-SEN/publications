@@ -40,7 +40,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "prettier": "^2.7.1"
   },
   "keywords": [
