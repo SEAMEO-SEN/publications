@@ -24,7 +24,7 @@ const ResearchPage = () => {
         {data.papers.map((paper, i) => (
           <div key={i}>
             <List>
-              <ListItem component={Link} to={"/research/" + paper.id}>
+              <ListItem>
                 <ListItemText primary={paper.title} secondary={paper.authors} />
                 <Button
                   component={Link}
