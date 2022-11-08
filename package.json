@@ -16,7 +16,7 @@
     "@mui/styles": "^5.10.10",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.7",
-    "gatsby": "^4.24.4",
+    "gatsby": "^4.24.7",
     "gatsby-cli": "^4.23.0",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
