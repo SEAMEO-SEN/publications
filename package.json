@@ -33,7 +33,7 @@
     "gatsby-transformer-sharp": "^4.24.0",
     "gsap": "^3.11.3",
     "material-design-icons": "^3.0.1",
-    "node-sass": "^7.0.3",
+    "node-sass": "^8.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "npm:@hot-loader/react-dom",
