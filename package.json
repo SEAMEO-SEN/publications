@@ -11,7 +11,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.10.9",
-    "@mui/lab": "^5.0.0-alpha.104",
+    "@mui/lab": "^5.0.0-alpha.117",
     "@mui/material": "^5.10.11",
     "@mui/styles": "^5.10.10",
     "@types/react": "^18.0.8",
